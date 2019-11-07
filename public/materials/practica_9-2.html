@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 6 - Pr&agrave;c. 9</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-7.html"><</a></li>  <li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>  <li><a href="practica_2-6.html">Pr&agrave;c. 2</a></li>  <li><a href="practica_3-6.html">Pr&agrave;c. 3</a></li>  <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>  <li><a href="practica_5-6.html">Pr&agrave;c. 5</a></li>  <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>  <li><a href="practica_7-3.html">Pr&agrave;c. 7</a></li>  <li><a href="practica_8-3.html">Pr&agrave;c. 8</a></li>  <li id="active"><a id="current" href="#">Pr&agrave;c. 9</a></li>  <li><a href="practica_10.html">Pr&agrave;c. 10</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="divisio_desenvolpuada" id="divisio_desenvolpuada">Divisió desenvolpuada</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/divisio_desenvolupada_1.png" class="media" alt="" />
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#valor" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=VALOR()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#mig" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=MIG()</a></div>
+</li>
+<li class="level1"><div class="li">Operadors de sumar (+) i multiplicar (*)</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Fer una divisió desenvolupada amb autoavaluació.<br/>
+</div>
+</li>
+</ul>
+
+<p>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1.</strong> Obrir el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P10 divisió 1</strong><br/>
+
+<strong>2.</strong> Fer que el format  de les cel·les del rang <strong>C4:K8</strong> sigui semblant al de l&#039;activitiat de presentació. Seria convenient que l&#039;amplada de les cel·les del rang <strong>A1:AE1</strong> fos de <strong>0,70cm</strong> per facilitar la visió de l&#039;activitat (és possible que s&#039;hagi d&#039;ajustar l&#039;amplada de la cel·la <strong>AD4</strong> per fer visible el seu contingut).<br/>
+
+<strong>3.</strong> Escriure a la cel·la <strong>C4</strong>: <strong>=SI($A$1=0;ALEATENTRE(1;9))</strong><br/>
+	<strong>4.</strong> Copiar la cel·la <strong>C4</strong> a les cel·les del rang <strong>D4:G4</strong>. Cal tenir en compte que a la cel·la <strong>E4</strong> la fórmula serà <strong>=SI($A$1=0;ALEATENTRE(G4;9))</strong>.<br/>
+<div class="noteclassic">Amb aquesta fórmula, l&#039;enter més petit retornat per la cel·la <strong>E4</strong> serà com a mínim el valor de la cel·la <strong>G4</strong> . D&#039;aquesta manera s&#039;aconsegueix que el resultat dels dos números concatenats de les cel·les
+<strong>D5</strong> i <strong>E5</strong> sempre sigui igual o més gran que el valor de la cel·la <strong>G4</strong> i així evitar escriure un <strong>0</strong> a la cel·la <strong>H5</strong>. El fet d&#039;escriure el <strong>0</strong> a la cel·la <strong>H5</strong> no es cap problema si es segueix el procediment normal de la divisió. Però si fos el cas d&#039;escriure el 0 a la cel·la <strong>H5</strong>, hi hauria l&#039;opció d&#039;escriure a la cel·la <strong>F5</strong> el número que hi ha a la cel·la <strong>F4</strong> (per estalviar un pas) fent més complexe el procediment de resoldre la divisió mitjançant el calc.<br/>
+
+En tot cas, si s&#039;escriure la fórmula  <strong>=SI($A$1=0;ALEATENTRE(0;9))</strong> a la cel·la <strong>E4</strong>, s&#039;hauria d&#039;advertir que es faci la divisió seguint sempre el mateix procediment encara que es puguin estalviar passos.
+</div>
+<strong>5.</strong> Escriure a la cel·la <strong>AD4</strong>: <strong>=VALOR(C4&amp;D4&amp;E4&amp;F4)</strong><br/>
+
+<div class="noteclassic">Els valors que apareixen a les cel·les del rang <strong>C4:F4</strong> caldrà concatenar-los per formar un número (el dividend). En aquest cas es concatenen a la cel·la <strong>AD4</strong>.
+</div>
+<strong>6.</strong> Escriure a la cel·la <strong>AE4</strong>: <strong>=G4</strong><br/>
+
+<div class="noteclassic">Tenin el dividend a la cel·la <strong>AD4</strong>, caldrà obtenir el divisor que en aquest cas es posa a la cel·la <strong>AE4</strong>.
+</div>
+<strong>7.</strong> Escriure a la cel·la <strong>AE5</strong>: <strong>=QUOCIENT(AD4;AE4)</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera s&#039;obté el quocient de la divisió.
+</div>			<strong>8.</strong> Escriure a la cel·la  <strong>V4</strong>:  <strong>=C4</strong><br/>
+
+<strong>9.</strong> Copiar la cel·la <strong>V4</strong> al rang de les cel·les <strong>W4:Z4</strong><br/>
+	<div class="noteclassic">D&#039;aquesta manera es torna a repetir la mateixa divisió de l&#039;activitat. Amb la línia poligonal es pot fer la línia vertical i horitzontal que separa el dividend del divisor.
+</div>
+Ara es tracta d&#039;expressar mitjançant fórmules el procediment normal que es segueix per fer una divisió.<br/>
+
+<strong>10.</strong> Escriure a la cel·la <strong>Z5</strong>: <strong>=VALOR(MIG(AE5;1;1))</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula s&#039;obté el primer número del divisor començant per l&#039;esquerra que hi ha a la cel·la <strong>AE5</strong>.
+</div>
+<strong>11.</strong> Escriure a la cel·la <strong>V5</strong>: <strong>=SI(V4&gt;=Z4;V4-Z5*Z4;&quot;&quot;)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula s&#039;expressa que si el valor de la cel·la <strong>V4</strong> és igual o major que el valor de la cel·la <strong>Z4</strong>, llavors es multilplica el valor de la cel·la <strong>Z5</strong> pel valor de la cel·la <strong>Z4</strong> per a després aquest resultat restar-ho al valor de la cel·la <strong>V4</strong>; si no, no mostra cap valor.
+</div>
+<strong>12.</strong> Escriure a la cel·la <strong>W5</strong>: <strong>=SI(V4&gt;=Z4;W4;VALOR(V4&amp;W4)-Z5*Z4)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula s&#039;expressa que si el valor de la cel·la <strong>V4</strong> és igual o major que el valor de la cel·la <strong>Z4</strong>, llavors apareix el valor de la cel·la <strong>W4</strong>; si no,es resta del valor concatenat de les cel·les <strong>V4</strong> i <strong>W4</strong> amb el resultat de multiplicar el valor de la cel·la <strong>Z5</strong> pel valor de la cel·la <strong>Z4</strong>.
+</div>
+<strong>13.</strong> Escriure a la cel·la <strong>AA5</strong>: <strong>=VALOR(MIG(AE5;2;1))</strong><br/>
+	<div class="noteclassic">Aquesta fórmula segueix el mateix procediment que l&#039;explicat en la nota del pas <strong>7</strong>, però el número que s&#039;obté és el primer des de la posició d&#039;inici <strong>2</strong> començant per l&#039;esquerra.
+</div>
+<strong>14.</strong> Escriure a la cel·la <strong>X5</strong>: <strong>=SI(V4&gt;=Z4;&quot;&quot;;X4)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula s&#039;expressa que si el valor de la cel·la <strong>V4</strong> és igual o major que el valor de la cel·la, llavors no es mostra cap valor; si no, s&#039;obté el valor de la cel·la <strong>X4</strong>.
+</div><br/>
+
+<strong>15.</strong> Escriure a la cel·la <strong>W6</strong>: <strong>=SI(V4&gt;=Z4;VALOR(V5&amp;W5)-AA5*Z4;&quot;&quot;)</strong><br/>
+
+<strong>16.</strong> Escriure a la cel·la <strong>X6</strong>: <strong>=SI(V4&gt;=Z4;X4;VALOR(W5&amp;X5)-AA5*Z4)</strong><br/>
+
+<strong>17.</strong> Escriure a la cel·la <strong>Y6</strong>: <strong>=SI(V4&gt;=Z4;&quot;&quot;;Y4)</strong><br/>
+
+<strong>18.</strong>Escriure a la cel·la <strong>AB5</strong>: <strong>=VALOR(MIG(AE5;3;1))</strong><br/>
+
+<strong>19.</strong> Escriure a la cel·la <strong>X7:</strong> <strong>=SI(V4&gt;=Z4;VALOR(W6&amp;X6)-AB5*Z4;&quot;&quot;)</strong><br/>
+
+<strong>21.</strong> Escriure a la cel·la <strong>Y7</strong>: <strong>=SI(V4&gt;=Z4;Y4;VALOR(X6&amp;Y6)-AB5*Z4)</strong><br/>
+
+<strong>22.</strong> Escriure a la cel·la <strong>AC5</strong>: <strong>=SI(LONG(AE5)=3;&quot;&quot;;VALOR(MIG(AE5;4;1)))</strong><br/>
+
+<strong>23.</strong> Escriure a la cel·la  <strong>Y8</strong>: <strong>=SI(V4&gt;=Z4;VALOR(X7&amp;Y7)-AC5*Z4;&quot;&quot;)</strong><br/>
+	<div class="noteclassic">Ara, havent fet el desenvolupament de la divisió, només caldrà comparar-la amb el desenvolupament de la divisió que es proposa fer. En cas que els valors comparatius siguin iguals, llavors apareixerà el <strong>bé</strong> de l&#039;avaluador; si no, apareixerà el <strong>no</strong> avaluador.
+</div>
+<strong>24.</strong> Escriure a la cel·la <strong>M5</strong>: <strong>=SI(EXACTE(C5;V5);&quot;b&quot;;&quot;&quot;)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula es comparen els valors de les cel·les <strong>C5</strong> i <strong>V5</strong> mitjançant la funció exacte que en cas que siguin iguals, llavors apareixerà la lletra b; si no es mostrarà cap valor.
+
+</div><strong>25.</strong> copiar la cel·la <strong>M5</strong> a les cel·les del rang <strong>N5:T5</strong><br/>
+
+<strong>26.</strong> copiar la cel·la <strong>M5</strong> a les cel·les del rang <strong>N6:P6</strong><br/>
+
+<strong>27.</strong> copiar la cel·la <strong>M5</strong> a les cel·les del rang <strong>O7:P7</strong><br/>
+
+<strong>28.</strong> copiar la cel·la <strong>M5</strong> a la cel·la <strong>P8</strong><br/>
+
+<strong>29.</strong> Escriure a la cel·la <strong>K7</strong>:<br/>
+<strong>=SI(I(M5=&quot;b&quot;;N5=&quot;b&quot;;O5=&quot;b&quot;;P5=&quot;b&quot;;Q5=&quot;b&quot;;R5=&quot;b&quot;;S5=&quot;b&quot;;T5=&quot;b&quot;;N6=&quot;b&quot;;O6=&quot;b&quot;;P6=&quot;b&quot;;O7=&quot;b&quot;;P7=&quot;b&quot;;P8=&quot;b&quot;);&quot;bé&quot;;&quot;&quot;)</strong>
+<div class="noteclassic">Amb aquesta fórmula s&#039;expressa que si cada una de les cel·les que conté la fórmula torna la lletra &quot;b&quot;, llavors apareixerà el <strong>bé</strong> avaluador; si no, apareixerà el <strong>no</strong> avaluador.
+</div>
+<strong>30.</strong> Fer una macro amb les següents funcions:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Actualitzar els números del dividend i del divisor per fer una nova divisió.</div>
+</li>
+<li class="level1"><div class="li">Esborrar els números del desenvolupament de la divisió.</div>
+</li>
+</ul>
+
+<p>
+<strong>31.</strong> Protegir les cel·les que convingui.<br/>
+
+<strong>32.</strong> Ocultar les cel·les que convingui.<br/>
+
+<strong>33.</strong> Comprovar que funcioni correctament l&#039;activitat.<br/>
+
+<strong>34.</strong> Desar el fitxer <strong>M6</strong><br/>
+
+<br/>
+
+<br/>
+
+Amb el calc també es poden fer divisions amb dues xifres al divisor.<br/>
+
+<img src="png/dividir2.png" class="media" alt="" />
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 4 - Exercici 4</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-5.html"><</a></li>  <li><a href="practica_1-4.html">Exercici 1</a></li>  <li><a href="practica_2-4.html">Exercici 2</a></li>  <li><a href="practica_3-4.html">Exercici 3</a></li>  <li id="active"><a id="current" href="#">Exercici 4</a></li>  <li><a href="practica_5-4.html">Exercici 5</a></li>  <li><a href="practica_6-4.html">Exercici 6</a></li>  <li><a href="practica_7.html">Exercici 7</a></li>  <li><a href="practica_8.html">Exercici 8</a></li>  <li><a href="practica_9.html">Exercici 9</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="dictats" id="dictats">Dictats</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/dictats.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li">=HIPERENLLAÇ()</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+En aquesta pràctica es tracta de fer dictats i així treballar l&#039;escriptura de les lletres de les paraules que interessi (g,j,tx, gu, güí ….). A més de treballar l&#039;ortografia de les paraules, també serveix per a treballar la comprensió oral en alumnes que estan aprenent el català a les aules d&#039;acollida (alumnes nouvinguts).<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<div class="noteclassic">
+Aquesta activitat es va fer amb Windows XP, per la qual cosa és possible que no funcioni bé amb una altra versió més nova de Windows.
+A continuació d&#039;aquesta pràctica se n&#039;explica una altra feta amb el Windows Vista.
+
+</div>
+</p>
+
+<p>
+<strong>1</strong>. Obrir el fitxer <strong>M4</strong> i afegir un nou full amb el nom de <strong>M4P4 dictats</strong><br/>
+
+<strong>2</strong>. Insereix <strong>| Objecte | Objecte Olé | Objectes addicionals (clic en d&#039;acord) | Archivos de sonido (clic en aceptar)</strong>.<br/>
+
+Havent fet aquests passos, apareix una finestra anomenada “sonido, gravadora de so” i un altaveu.<br/>
+
+<strong>3</strong>. Fent servir el micròfon i prement el botó de gravar de la gravadora, gravar el següent: <strong>El Joan llegeix un llibre.</strong><br/>
+
+<strong>4</strong>. Fer un clic a sobre del símbol del so i situar-lo a la cel·la <strong>B6</strong><br/>
+
+<strong>5</strong>. Escriure a la cel·la <strong>D6</strong>: <strong>=SI(C6=&quot;&quot;;&quot;&quot;;SI(C6=&quot;El Joan llegeix un llibre.&quot;;&quot;bé&quot;;&quot;no&quot;))</strong><br/>
+
+<div class="noteclassic">
+També es podria fer que la resposta sigui correcta escrivint-ho de les dues maneres. llavors la fórmula seria:<br/>
+
+<strong>=SI(C6=&quot;&quot;;&quot;&quot;;SI(O(C6=&quot;El Joan llegeix un llibre&quot;;C6=&quot;El Joan llegeix un llibre.&quot;);&quot;bé&quot;;&quot;no&quot;))</strong>
+</div><br/>
+
+<strong>6</strong>. Fer una macro amb les següent funció:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Esborrar el contingut de la cel·la <strong>C6</strong>.</div>
+</li>
+<li class="level1"><div class="li">Que la cel·la <strong>C6</strong> rebi el focus.</div>
+</li>
+</ul>
+
+<p>
+<strong>7</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro feta anteriorment.<br/>
+
+<strong>8</strong>. Situar la macro com es veu en el gràfic de l&#039;activitat de presentació.<br/>
+
+<strong>9</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>10</strong>. Per protegir la posició i la mida del símbol del so es pot fer el següent.<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Fer un clic a sobre del símbol del so i clic al botó dret del ratolí (menú contextual)</div>
+</li>
+<li class="level1"><div class="li">Clic en “posició i mida” i apareix una finestra anomenada “posició i mida”.	</div>
+</li>
+<li class="level1"><div class="li">Fer clic a la casella de “posició” per activar l&#039;apartat Protegeix.	</div>
+</li>
+</ul>
+
+<p>
+<strong>11</strong>. Comprovar que l&#039;activitat funcioni correctament fent elsegüent:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Fer un clic al símbol de so i després pitjar la tecla intro. Havent fet aquesta acció, s&#039;hauria d&#039;escoltar l&#039;oració que prèviament s&#039;ha gravat (El Joan llegeix un llibre).</div>
+</li>
+<li class="level1"><div class="li">Escriure l&#039;oració a la cel·la <strong>C6</strong> i pitjar la tecla intro per comprovar l&#039;avaluació del dictat que apareixerà en la cel·la <strong>D6</strong>.</div>
+</li>
+</ul>
+
+<p>
+<strong>12</strong>. Desar el fitxer <strong>M4</strong><br/>
+
+<br/>
+
+………………………………
+<br/>
+
+<br/>
+
+<strong>Una altra opció</strong> (amb el Windows Vista)<br/>
+
+<br/>
+
+<br/>
+
+<img src="png/dictat_2.png" class="media" alt="" /><br/>
+
+<br/>
+
+Aquesta activitat de fer dictats té l&#039;inconvenient de no presentar de manera aleatòria diferents dictats. És a dir, aniria bé que cada vegada que es fes clic a la macro es presentés un nou dictat.<br/>
+
+<br/>
+
+Per fer-ho, es pot fer el següent:<br/>
+
+<br/>
+
+<strong>1</strong>. Mitjançant l&#039;aplicació informàtica Audacity enregistrem quatre dictats:
+</p>
+<ul>
+<li class="level1"><div class="li">Obrir el programa <strong>Audacity</strong>   <img src="png/m4_icono_audacityf622.png?w=34&amp;h=38" class="media" alt="" width="34" height="38" /></div>
+</li>
+<li class="level1"><div class="li">Fer clic al botó de color vermell anomenat enregistra<img src="png/m4_enregistra_activatd05a.png?w=32&amp;h=35" class="media" alt="" width="32" height="35" /> per començar a enregistrar el dictat: <strong>“escric amb el llapis”</strong></div>
+</li>
+<li class="level1"><div class="li">En acabar el dictat, fer clic al botó Atura&#039;t <img src="png/m4_aturat_desactivatc3be.png?w=31&amp;h=33" class="media" alt="" width="31" height="33" /></div>
+</li>
+<li class="level1"><div class="li">Del menú, anar a <strong>Fitxer</strong> i clic en <strong>Exporta com a <acronym title="Motion Picture Experts Group Layer 3">MP3</acronym></strong> i guardar el fitxer en <strong>C:\Dictats</strong>.</div>
+</li>
+</ul>
+
+<p>
+<img src="png/m4_dictat_joan_llegeix_un_llibre.png" class="media" alt="" /><br/>
+
+<img src="png/m4_exporta_com_a_mp3.png" class="media" alt="" /><br/>
+
+<strong>2</strong>. Suposant que el fitxer <strong>dictat 1 escric amb el llapis.mp3</strong> s&#039;hagi guardat en <strong>C:\Dictats</strong>, llavors s&#039;escriu en la cel·la <strong>G3</strong> el següent: <strong>=HIPERENLLAÇ(&quot;C:\Dictats\dictat 1 escric amb el llapis.mp3&quot;)</strong>. Observar que en fer clic en aquesta cel·la es podria escoltar el dictat.<br/>
+
+<div class="noteclassic">
+La funció <strong>HIPERENLLAÇ</strong> enllaça amb el fitxer “dictat 1 escric amb el llapis.mp3”
+En el primer argument de la funció <strong>HIPERENLLAÇ</strong> s&#039;escriu la <strong><acronym title="Uniform Resource Locator">URL</acronym></strong> i en el segon argument, <strong>CellText </strong>i que és opcional, es pot escriure un nom que substituirà  l&#039;adreça <acronym title="Uniform Resource Locator">URL</acronym>.
+</div>
+Per donar opció a escoltar més dictats de manera aleatòria, caldria enregistrar-ne més i desar-los, per exemple, en:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">C:\Dictats\dictat 2 esborro amb la goma.mp3</div>
+</li>
+<li class="level1"><div class="li">C:\Dictats\dictat 3 pinto amb els colors.mp3</div>
+</li>
+<li class="level1"><div class="li">C:\Dictats\dictat 4 tinc un estoig de color blau.mp3</div>
+</li>
+</ul>
+
+<p>
+<strong>3</strong>. Escriure en la cel·la <strong>G4</strong>: <strong>=HIPERENLLAÇ(&quot;C:\Dictats\dictat 2 esborro amb la goma.mp3”)</strong><br/>
+
+<strong>4</strong>. Escriure en la cel·la <strong>G5</strong>: <strong>=HIPERENLLAÇ(&quot;C:\Dictats\dictat 3 pinto amb els colors.mp3”)</strong><br/>
+
+<strong>5</strong>. Escriure en la cel·la <strong>G6</strong>: <strong>=HIPERENLLAÇ(&quot;C:\Dictats\dictat 4 tinc un estoig de color blau.mp3”)</strong><br/>
+
+<strong>6</strong>. Escriure el número <strong>1</strong> en la cel·la <strong>F3</strong> i estendre&#039;l fins la cel·la <strong>F6</strong> fent així una llista de números de l&#039;<strong>1</strong> fins el <strong>4</strong><br/>
+
+<strong>7</strong>. Escriure en la cel·la <strong>F7</strong>: <strong>=ALEATENTRE(1;4)</strong> que servirà de criteri de cerca per a la consulta del següent pas.<br/>
+
+<strong>8</strong>. Escriure en la cel·la <strong>B3</strong>: <strong>=HIPERENLLAÇ(CONSULTA(F7;F3:F6;G3:G6);&quot;dictats&quot;)</strong>
+En escriure aquesta fórmula, s&#039;observa que en la cel·la <strong>B3</strong> només es mostra la paraula <strong>“dictat”</strong>.Fent clic en <strong>“dictat”</strong> s&#039;escolta el dictat.  El dictat s&#039;escriurà en la cel·la <strong>C3</strong>, com hagués pogut ser en qualsevol altra cel·la.<br/>
+
+<div class="noteclassic">
+Es pot fer que els fitxers de so es puguin obrir per defecte amb el Reproductor de Windows Media o en un altre programa. Per enregitrar els dictats també es pot fer servir la  “gravadora de sonidos”  que es troba en C:\Windows\system32\SoundRecorder.exe en el Windows Vista o en
+C:\Windows\system32\Sndrec32.exe en el Windows Xp.
+</div>
+<strong>9</strong>. Per fer l&#039;avaluació,<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Escriure en la cel·la <strong>H3</strong>: <strong>Escric amb el llapis.</strong><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Escriure en la celEla <strong>H4</strong>: <strong>Esborro amb la goma.</strong><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Escriure en la cel·la <strong>H5</strong>: <strong>Pinto amb els colors.</strong><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Escriure en la cel·la <strong>H6</strong>: <strong>Tinc un estoig de color blau.</strong><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Escriure a la cel·la <strong>E3</strong>: <strong>=CONSULTAV(F7;F3:H6;3)</strong> En aquesta consulta el 3 és l&#039;índex</div>
+</li>
+</ul>
+
+<p>
+(la tercera columna de la matriu  que conté el valor que s&#039;ha de retornar)
+</p>
+<ul>
+<li class="level1"><div class="li">Escriure en la cel·la <strong>D3</strong>: <strong>=SI(C3=&quot;&quot;;&quot;&quot;;SI(C3=E3;&quot;bé&quot;;&quot;no&quot;))</strong></div>
+</li>
+</ul>
+
+<p>
+<strong>10</strong>. Fer una macro que faci el següent:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Que esborri el contingut de la cel·la <strong>C3</strong></div>
+</li>
+<li class="level1"><div class="li">Que actualitzi el valor de la cel·la <strong>F7</strong></div>
+</li>
+<li class="level1"><div class="li">Que la cel·la <strong>C3</strong> sigui la cel·la activa (que rebi el focus)</div>
+</li>
+</ul>
+
+<p>
+<strong>11</strong>. Assignar la macro al botó de prémer.<br/>
+
+<strong>12</strong>. Ocultar o desplaçar les cel·les que convingui.<br/>
+
+<strong>13</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>14</strong>. Comprovar que la pràctica funcioni correctament.<br/>
+
+<strong>15</strong>. Desar el fitxer M4<br/>
+
+<div class="noteclassic">
+Aquesta pràctica també podria servir per a:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">escoltar una cançó i escriure-hi el seu nom.</div>
+</li>
+<li class="level1"><div class="li">fer dictats en diferents idiomes.</div>
+</li>
+</ul>
+
+<p>
+
+</div>
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

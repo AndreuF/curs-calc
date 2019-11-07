@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 4 - Exercici 8</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-5.html"><</a></li>  <li><a href="practica_1-4.html">Exercici 1</a></li>  <li><a href="practica_2-4.html">Exercici 2</a></li>  <li><a href="practica_3-4.html">Exercici 3</a></li>  <li><a href="practica_4-4.html">Exercici 4</a></li>  <li><a href="practica_5-4.html">Exercici 5</a></li>  <li><a href="practica_6-4.html">Exercici 6</a></li>  <li><a href="practica_7.html">Exercici 7</a></li>  <li id="active"><a id="current" href="#">Exercici 8</a></li>  <li><a href="practica_9.html">Exercici 9</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="diccionari_amb_la_funcio_consultav" id="diccionari_amb_la_funcio_consultav">Diccionari amb la funció CONSULTAV()</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/diccionari_consulatav.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">=SI()</div>
+</li>
+<li class="level1"><div class="li">=COMPTASI()</div>
+</li>
+<li class="level1"><div class="li">=CONSULTAV()			</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Fer un diccionari particular per traduir una paraula catalana a dos idiomes (anglès i castellà) mitjançant la funció <strong>CONSULTAV()</strong>.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activita</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M4</strong> i afegir un nou full amb el nom de <strong>M4P8 diccionari 1</strong><br/>
+
+<strong>2</strong>. Escriure a les cel·les del rang <strong>G3:I5</strong> les següents paraules:<br/>
+
+<img src="png/m4p8_diccionari_1.png" class="media" alt="" />
+<div class="noteclassic">En aquesta activitat només es poden consultar tres paraules perquè ja es suficient per mostrar com funciona l&#039;activitat. Quan s&#039;hagi estudiat com funciona l&#039;activitat, es podran afegir tantes paraules com es vulgui i es podrà augmentar el número d&#039;idiomes a consultar.
+</div><br/>
+
+<strong>3</strong>. Formatar les cel·les del rang <strong>C6:E7</strong> com es veu en el gràfic de presentació de l&#039;activitat. A la cel·la <strong>C7</strong> s&#039;escriurà la paraula que es vol consultar.<br/>
+
+<strong>4</strong>. Escriure a la cel·la <strong>D7</strong>: <strong>=SI(COMPTASI($G$3:$G$5;$C$7)=0;&quot;&quot;;SI($C$7=&quot;&quot;;&quot;&quot;;CONSULTAV($C$7;$G$3:$I$5;2;0)))</strong><br/>
+
+<div class="noteclassic">La fórmula <strong>=SI(COMPTASI($G$3:$G$5;$C$7)=0;&quot;&quot;</strong> permet que la cel·la no mostri cap valor en cas que no es trobi la paraula que hagi escrita a la cel·la <strong>C7</strong>. De no posar aquesta fórmula, apareixeria el valor <strong>#N/A</strong> donant a entendre que no es troba la paraula que hi  ha a la cel·la <strong>E7</strong>.
+</div><br/>
+
+<div class="noteclassic">La Fórmula <strong>SI($C$7=&quot;&quot;;&quot;&quot;;CONSULTAV($C$7;$G$3:$I$5;2;0))</strong> permet fer la consulta de la paraula que hagi escrita a cel·la <strong>C7</strong> en la segona columna del rang <strong>G3:I5</strong> sempre i quan aquesta cel·la sigui tingui contingut.
+</div>
+<strong>5</strong>. Copiar la cel·la <strong>D7</strong> a la cel·la <strong>E7</strong> tenint en compte que cal canviar el número <strong>2</strong> pel <strong>3</strong> (fent així referència a la tercera columna del rang <strong>G3:I5</strong>)<br/>
+
+<img src="png/diccio_e7.png" class="media" alt="" /><br/>
+
+<strong>6</strong>. Escriure a la cel·la <strong>F7</strong>: <strong>=SI(C7=&quot;&quot;;&quot;&quot;;SI(COMPTASI(G3:I5;C7)=0;&quot;Aquesta paraula no està entrada en aquest diccionari particular.&quot;;&quot;&quot;))</strong><br/>
+
+<div class="noteclassic">En cas que a la cel·la <strong>C7</strong> no hagi cap valor, la cel·la <strong>F7</strong> no mostrarà cap valor; en cas contrari, i suposant que la paraula que hi hagi escrita a la cel·la <strong>C7</strong> no es trobi (valor de repetició = 0), llavors es mostraria el text de &quot;Aquesta paraula no està entrada en aquest diccinari particular&quot;.
+</div><br/>
+
+<strong>7</strong>. Fer una macro amb la funció d&#039;esborrar el contingut de la cel·la <strong>C7</strong>.<br/>
+
+<strong>8</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro feta anteriorment.<br/>
+
+<strong>9</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>10</strong>. Fer no visibles les cel·les que convingui.<br/>
+
+<strong>11</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>12</strong>. Desar el fitxer <strong>M4</strong><br/>
+
+</p>
+
+</div>
+
+<h1><a name="diccionari_amb_camps_d_opcio" id="diccionari_amb_camps_d_opcio">Diccionari amb camps d&#039;opció</a></h1>
+<div class="level1">
+
+<p>
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/diccionari_camp_d_opcio_0.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">=SI()</div>
+</li>
+<li class="level1"><div class="li">=COMPTASI()</div>
+</li>
+<li class="level1"><div class="li">=CONSULTAV()			</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+Fer un diccionari particular per traduir una paraula catalana a dos idiomes (anglès i castellà) mitjançant camps d&#039;opció.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M4</strong> i afegir un nou full amb el nom de <strong>M4P8 diccionari 2</strong><br/>
+
+<strong>2</strong>. Escriure a les cel·les del rang <strong>F3:H5</strong> les següents paraules:<br/>
+
+<img src="png/diccionari_paraules.png" class="media" alt="" /><br/>
+
+<strong>3</strong>. Formatar les cel·les del rang <strong>D7:E9</strong> com es veu en el gràfic de presentació de l&#039;activitat.<br/>
+
+<strong>4</strong>. Crear un camp d&#039;opció enllaçant-lo a la cel·la <strong>B8</strong>. Col·locar aquest camp d&#039;opció com es veu a l&#039;activitat de presentació (cel·la <strong>D8</strong>)<br/>
+
+<div class="noteclassic">Quan es fa clic al camp d&#039;opció situat a la cel·la <strong>D8</strong>, apareix paraula VERITAT a la cel·la <strong>B8</strong> perquè aquest camp d&#039;opció està enllaçat a la cel·la <strong>B8</strong>. Tenint en compte que la paraula VERITAT també es pot interpretar com valor 1, només caldrà fer servir la funció lògica <strong>=SI()</strong> i la funció <strong>CONSULATV()</strong> per trobar la paraula traduïda a l&#039;idioma que correspongui en cas que la paraula consultada estigui al diccionari particular.
+</div>
+<strong>5</strong>. Escriure a la cel·la <strong>E8</strong>: <strong> =SI(COMPTASI($F$3:$F$5;$E$7)=0;&quot;&quot;;SI(B8=1;CONSULTAV($E$7;$F$3:$H$5;2;0);&quot;&quot;))</strong><br/>
+
+<strong>6</strong>. Seleccionar el camp d&#039;opció creat anteriorment, fer una copia i enganxar-lo a la cel·la <strong>D9</strong>.<br/>
+	<strong>7</strong>. Enllaçar aquest segon camp d&#039;opció a la cel·la <strong>B9</strong>.<br/>
+
+<strong>8</strong>. Copiar la cel·la <strong>E8</strong> i enganxar-la a la cel·la <strong>E9</strong> tenint en compte que només cal canviar el numero    <strong>2</strong> pel <strong>3</strong> (fent així referència a la tercera columna del rang de cel·les <strong>F3:H5</strong>)<br/>
+
+<img src="png/diccio_camp_d_opcio_cel_la_e9.png" class="media" alt="" /><br/>
+
+<strong>9</strong>. Escriure a la cel·la <strong>F7</strong>: <strong>=SI(E7=&quot;&quot;;&quot;&quot;;SI(COMPTASI(F3:F5;E7)=0;&quot;Aquesta paraula no està entrada en aquest diccionari particular&quot;;&quot;&quot;))</strong><br/>
+
+<strong>10</strong>. Desprotegir les cel·les <strong>B8:B9</strong> perquè funcioni bé l&#039;activitat una vegada s&#039;hagi protegit el full.<br/>
+
+<strong>11</strong>. Fer una macro la qual servirà per esborrar el contingut de la cel·la <strong>E7</strong><br/>
+
+<strong>12</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro feta anteriorment.<br/>
+
+<strong>13</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>14</strong>. Fer no visibles les cel·les que convingui.<br/>
+
+<strong>15</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>16</strong>. Desar el fitxer <strong>M4</strong><br/>
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 6 - Pr&agrave;c. 3</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-7.html"><</a></li>  <li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>  <li><a href="practica_2-6.html">Pr&agrave;c. 2</a></li>  <li id="active"><a id="current" href="#">Pr&agrave;c. 3</a></li>  <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>  <li><a href="practica_5-6.html">Pr&agrave;c. 5</a></li>  <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>  <li><a href="practica_7-3.html">Pr&agrave;c. 7</a></li>  <li><a href="practica_8-3.html">Pr&agrave;c. 8</a></li>  <li><a href="practica_9-2.html">Pr&agrave;c. 9</a></li>  <li><a href="practica_10.html">Pr&agrave;c. 10</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="diari_escolar" id="diari_escolar">Diari escolar</a></h1>
+<div class="level1">
+
+<p>
+<strong>Presentació gràfica de l&#039;activitat.</strong><br/>
+
+<img src="png/diari_escolarb.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#comptasi" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=COMPTASI()</a><br/>
+</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Fer un diari on escriure les activitats treballades en uns determinats alumnes de reforç i on escriure allò que es cregui convenient per fer un seguiment dels objectius didàctics que s&#039;estan treballan en l&#039;alumne.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M6</strong> i afegir un nou full anomenat <strong>M6P3 diari escolar</strong>.<br/>
+
+<strong>2</strong>. Escriure a les cel·les corresponents les dades que hi ha escrites al gràfic de l&#039;activitat de presentació.<br/>
+
+<a href="csv/diari_escolar.csv" class="media mediafile mf_" title="cursos:tic:d228:modul_6:diari_escolar.csv">dades diari escolar</a><br/>
+
+<strong>3</strong>. Seleccionar les cel·les del rang <strong>B5:G15</strong> i anar a <strong>Dades | Filtre| i clic en Filtre automàtic</strong>.<br/>
+
+<strong>4</strong>. Comprovar que funcionin bé els filtres fent un filtre de <strong>A1</strong> de la columna que té per capçalera la paraula <strong>Alumne</strong>. Havent-ho fet, només s&#039;haurien de veure quatre files amb informació de l&#039;alumne <strong>A1</strong>.<br/>
+
+<div class="noteclassic">La cel·la <strong>D1</strong> mostra el número total de faltes d&#039;assistència (<strong>FA</strong>) i la cel·la <strong>E3</strong> mostra el número de faltes d&#039;assistència d&#039;un determinat alumne.
+</div><br/>
+
+<strong>5</strong>. Escriure a la cel·la <strong>D1</strong>: <strong>=COMPTASI(E6:E15;&quot;X&quot;)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula se sap el número de cel·les del rang <strong>E6:E15</strong> en que hi ha escrit la lletra <strong>x</strong>, sabent així el número total de faltes.
+</div>
+<strong>6</strong>. Escriure a la cel·la <strong>H6</strong>: <strong>=SI($D$3=C6;E6;&quot;&quot;)</strong><br/>
+
+<div class="noteclassic">Per saber el número de faltes d&#039;un determinat alumne, primer caldrà fer una selecció d&#039;aquelles cel·les del rang <strong>C6:C15</strong> que continguin el valor de la cel·la <strong>D3</strong> i que a la vegada la cel·la <strong>E6</strong> tingui la lletra <strong>x</strong>. És per això, que a la cel·la <strong>H6</strong> s&#039;escriu <strong>=SI($D$3=C6;E6;&quot;&quot;)</strong>. És a dir, si el valor la cel·la <strong>D3</strong> és igual al valor de la cel·la <strong>C6</strong>, llavors apareix el valor de la cel·la <strong>E6</strong>; si no, la cel·la <strong>H6</strong> no mostra res.<br/>
+
+A la cel·la <strong>D3</strong> s&#039;escriu el nom de l&#039;alumne.
+</div>
+<strong>7</strong>. Fer una copia de la cel·la <strong>H6</strong> i enganxar-ho a les cel·les del rang <strong>H7:H15</strong><br/>
+
+<strong>8</strong>. Escriure a la cel·la <strong>E3</strong>: <strong>=COMPTASI(H6:H15;&quot;X&quot;)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula se sap el número de cel·les del rang <strong>H6:H15</strong> en que hi ha escrit la lletra <strong>x</strong>,
+sabent així el número total de faltes d&#039;un determinat alumne de la cel·la <strong>D3</strong>.
+</div>
+<strong>10</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>11</strong>. Ocultar les cel·les que convingui.<br/>
+
+<strong>12</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>13</strong>. Desar el fitxer <strong>M6</strong><br/>
+
+<br/>
+
+<br/>
+
+</p>
+
+</div>
+
+<h1><a name="registre_de_notes" id="registre_de_notes">Registre de notes</a></h1>
+<div class="level1">
+
+<p>
+<strong>Presentació gràfica de l&#039;activitat.</strong><br/>
+
+<img src="png/registre_de_notes1.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#suma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SUMA()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#mitjana" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=MITJANA()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Operadors de multiplicar (*) i dividir (/)</div>
+</li>
+<li class="level1"><div class="li">Operador de concatenar (&amp;) per fer la proposta d&#039;exercici</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Fer un registre de notes.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M6</strong> i afegir un nou full amb el nom <strong>M6P3 notes</strong>.<br/>
+
+<strong>2</strong>. Fer una taula com la que es veu en l&#039;activitat de presentació i escriure les dades que es veuen a les cel·les del rang <strong>B2:I15</strong> i de les cel·les <strong>K2</strong> i <strong>B16</strong>. El contingut de la resta de les cel·les s&#039;explica a continuació.<br/>
+
+<a href="csv/notes.csv" class="media mediafile mf_" title="cursos:tic:d228:modul_6:notes.csv">notes.csv</a><br/>
+
+<strong>3</strong>. Escriure a la cel·la <strong>J4</strong>:<br/>
+
+<strong>=SI(I(D4=&quot;&quot;;E4=&quot;&quot;;F4=&quot;&quot;;G4=&quot;&quot;;H4=&quot;&quot;;I4=&quot;&quot;);&quot;&quot;;SUMA(D4:I4)*10/6)</strong>
+<div class="noteclassic">Amb la funció <strong>=I()</strong>, la cel·la <strong>J4</strong> no mostrarà cap valor (<strong>“”</strong>) si cada una de les cel·les del rang <strong>D4:I4</strong> no conté cap valor numèric.<br/>
+
+Amb la última part d&#039;aquest fórmula, <strong>SUMA(D4:I4)*10/6</strong>, s&#039;obté un valor sobre una puntuació de <strong>10</strong>. Aquesta última part també es pot substituir per <strong>MITJANA(D4:I4)*10</strong> donant el mateix resultat
+</div><br/>
+
+<strong>4</strong>. Crear un estil de cel·la on la lletra sigui vermella i anomenar-lo <strong>vermell</strong>.<br/>
+
+Per crear un estil de cel·la, fer el següent:
+</p>
+<ul>
+<li class="level1"><div class="li">Fer clic a la cel·la <strong>B1</strong> i fer que el color de la lletra d&#039;aquesta cel·la sigui vermell</div>
+</li>
+<li class="level1"><div class="li">Havent-ho fet, de la barra de menú anar a <strong>Format</strong> | <strong>Estils i formatació</strong> i es mostrarà una finestra anomenada <strong>Estil i Formatació</strong> (prement la tecla <strong>F11</strong> es mostra la mateixa finestra)</div>
+</li>
+<li class="level1"><div class="li">Fer clic en la icona <strong>&quot;Nou estil a partir de la selecció&quot;</strong> <img src="png/nou_estil.png" class="media" alt="" /> i es mostra una altra finestra anomenada <strong>Crea un estil</strong></div>
+</li>
+<li class="level1"><div class="li">Escriure el nom de l&#039;estil, vermell per exemple, a la casella corresponent del bloc <strong>Nom de l&#039;estil</strong> i clic en D&#039;acord</div>
+</li>
+<li class="level1"><div class="li">Tancar la finestra <strong>Estil i Formatació</strong></div>
+</li>
+</ul>
+
+<p>
+<strong>5</strong>. Seleccionar la cel·la <strong>J4</strong> i assignar-li un format condicional amb les següents condicions:
+</p>
+<ul>
+<li class="level1"><div class="li">valor de la cel·la: <strong>menor que 5</strong>	</div>
+</li>
+<li class="level3"><div class="li">Estil de la cel·la: <strong>vermell</strong></div>
+</li>
+</ul>
+
+<p>
+<div class="noteclassic">Si el valor mostrat per aquesta cel·la és inferior a <strong>5</strong>, llavors es mostrarà en color vermell.
+</div>
+<strong>6</strong>. Copiar la cel·la <strong>J4</strong> i enganxar-la a les cel·les del rang <strong>J5:J15</strong> per copiar les fórmules i l&#039;estil de cel·la<br/>
+
+<strong>7</strong>. Escriure a la cel·la <strong>K4</strong>: <strong>=SUMA(J4:J15)/12</strong>. També es pot substituir per la funció  <strong>=MITJANA(J4:J15)</strong><br/>
+
+<strong>8</strong>. Escriure a la cel·la <strong>D16</strong>: <strong>=SI(SUMA(D4:D15)=0;&quot;&quot;;SUMA(D4:D15)*100/12)</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula s&#039;obté el tant per cent d&#039;alumnes que ha resolt bé l&#039;exercici <strong>E1</strong>.<br/>
+
+Observar que la funció <strong>=SUMA()</strong> ha substiut a la funció <strong>=I()</strong> de la fórmula explicada en el pas 3 sent una altra manera de fer el mateix.
+</div>
+<strong>9</strong>. Seleccionar la cel·la <strong>D16</strong> i assignar-li un format condicional amb les següents condicions:
+</p>
+<ul>
+<li class="level1"><div class="li">valor de la cel·la: <strong>menor que 50</strong>	</div>
+</li>
+<li class="level2"><div class="li">Estil de la cel·la: <strong>vermell</strong>	</div>
+</li>
+</ul>
+
+<p>
+<strong>10</strong>. Copiar la cel·la <strong>D16</strong> i enganxar-la a les cel·les del rang <strong>E16:I16</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera es copia la fórmula de la cel·la <strong>D16</strong> a les cel·les del rang  <strong>E16:I16</strong> amb les modificacions convenients de manera automàtica i, a més, també es copia de manera automàica l&#039;estil de cel·la.
+</div>
+<strong>11</strong>. Fer una macro amb les següents funcions:
+</p>
+<ul>
+<li class="level1"><div class="li">Esborrar les dades del rang <strong>D4:I15</strong>	</div>
+</li>
+<li class="level3"><div class="li">Que la cel·la <strong>D4</strong> rebi el focus.	</div>
+</li>
+</ul>
+
+<p>
+<strong>12</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>13</strong>. Ocultar les cel·les que convingui.<br/>
+
+<strong>14</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>15</strong>. Desar el fitxer <strong>M6</strong>.<br/>
+
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

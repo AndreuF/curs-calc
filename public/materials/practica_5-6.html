@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 6 - Pr&agrave;c. 5</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-7.html"><</a></li>  <li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>  <li><a href="practica_2-6.html">Pr&agrave;c. 2</a></li>  <li><a href="practica_3-6.html">Pr&agrave;c. 3</a></li>  <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>  <li id="active"><a id="current" href="#">Pr&agrave;c. 5</a></li>  <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>  <li><a href="practica_7-3.html">Pr&agrave;c. 7</a></li>  <li><a href="practica_8-3.html">Pr&agrave;c. 8</a></li>  <li><a href="practica_9-2.html">Pr&agrave;c. 9</a></li>  <li><a href="practica_10.html">Pr&agrave;c. 10</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="numeros_romans" id="numeros_romans">Números romans</a></h1>
+<div class="level1">
+
+<p>
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/numeros_romans.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat:</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#roma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ROMA()</a><br/>
+	</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Escriure números romans de l&#039;1 fins al 3.999 amb l&#039;opció més simplificada.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el el fitxer <strong>M6</strong> i afegir un nou full anomenat <strong>M6P5 números romans</strong><br/>
+
+<strong>2</strong>. Fer que les cel·les dels rangs <strong>C5:E5</strong> i <strong>D9:E9 </strong>tinguiN un format (atributs de la cel·la) semblant al gràfic de la presentació de l&#039;activitat.<br/>
+
+<strong>3</strong>. Escriure a la cel·la <strong>C5</strong>: <strong>=SI($A$1=0;ALEATENTRE(1;3999))</strong><br/>
+
+<strong>4</strong>. Escriure a la cel·la <strong>G5</strong>: <strong>=ROMA(C5)</strong><br/>
+
+<div class="noteclassic"> Amb aquesta fórmula es converteix el número que hi ha a la cel·la <strong>C5</strong> en un número romà.
+</div>
+<strong>5</strong>. Escriure a la cel·la <strong>E5</strong>: <strong>=SI(D5=&quot;&quot;;&quot;&quot;;SI(G5=D5;&quot;bé&quot;;&quot;?&quot;))</strong><br/>
+
+<div class="noteclassic"> Si la cel·la <strong>D5</strong> no mostra cap valor, llavors la cel·la <strong>E5</strong> no mostra cap valor; en cas contrari, la cel·la <strong>E5</strong> mostrarà el &quot;<strong>bé</strong>&quot; o el &quot;<strong>?</strong>&quot; en funció si el contingut de la cel·la <strong>G5</strong> és igual o no al contingut de la cel·la <strong>D5</strong>.
+</div>
+<strong>6</strong>. Seleccionar les cel·les del rang <strong>C5:G5</strong>, copiar-les i enganxar-les a la cel·la <strong>C9</strong>.<br/>
+
+<strong>7</strong>. Fer una macro amb les següents funcions:
+</p>
+<ul>
+<li class="level1"><div class="li">Esborrar el contingut de les cel·les <strong>D5</strong> i <strong>D9</strong>.		</div>
+</li>
+<li class="level4"><div class="li">Que la cel·la <strong>D5</strong> rebi el focus.		</div>
+</li>
+</ul>
+
+<p>
+<strong>8</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>9</strong>. Ocultar o fer no visible les cel·les que convingui.<br/>
+
+<strong>10</strong>. Comprovar que funcioni correctament l&#039;activitat.<br/>
+
+<div class="noteclassic">Per escriure números romans, cal escriure&#039;ls en lletra majúscula. No és el cas, però si convingués també es podria fer que l&#039;activitat funcionés amb lletres minúscules.
+</div>
+<strong>11</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>12</strong>. Desar el fitxer <strong>M6</strong>.<br/>
+
+</p>
+
+</div>
+
+<h1><a name="graus_aproximats" id="graus_aproximats">Graus aproximats</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<br/>
+
+<img src="png/graus_aproximats.png" class="media" alt="" /><br/>
+
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
+</div>
+</li>
+<li class="level1"><div class="li">Operadors de restar (-), multiplicar (*) i dividir (/)	</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Escriure el graus aproximats d&#039;un angle.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M6</strong> i afegir un nou full anomenat <strong>M6P5 graus aproximats</strong><br/>
+
+<strong>2</strong>. Escriure a la cel·la <strong>G7</strong>: <strong>=SI(A1=0;ALEATENTRE(1;9))</strong><br/>
+
+<strong>3</strong>. Escriure a la cel·la <strong>H7</strong>: <strong>=SI(A1=0;ALEATENTRE(1;9))</strong><br/>
+
+<strong>4</strong>. Fer un digrama de sectors amb les dades de les cel·les <strong>G7 i H7</strong> i fer que tingui els següents atributs:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Posició X: 2cm</div>
+</li>
+<li class="level1"><div class="li"> Posició Y: 3,20cm</div>
+</li>
+<li class="level1"><div class="li"> Alçada: 3,50cm</div>
+</li>
+<li class="level1"><div class="li"> Amplada: 3,50cm	</div>
+</li>
+</ul>
+
+<p>
+<strong>5</strong>. Escriure a la cel·la <strong>H8</strong>: <strong>=(H7*360)/SUMA(G7:H7)</strong><br/>
+
+<div class="noteclassic">Aquesta fórmula es basa amb una senzilla regla de tres. Si la suma de les cel·les <strong>G7</strong> i <strong>H7</strong> representen el <strong>360º</strong>, el valor de la cel·la <strong>H8</strong> representarà la part proporcional dels <strong>360º</strong> (zona vermella).
+</div><br/>
+
+<strong>6</strong>. Escriure a la cel·la <strong>H10</strong>: <strong>=(G7*360)/SUMA(G7:H7)</strong>.<br/>
+
+<div class="noteclassic">Aquesta fórmula es basa amb una senzilla regla de tres. Si la suma de les cel·les <strong>G7</strong> i <strong>H7</strong> representen els <strong>360º</strong>, el valor de la cel·la <strong>H10</strong> representarà la part proporcional dels <strong>360º</strong> graus (zona blava).
+</div><br/>
+
+<strong>7</strong>. Crear una barra de desplaçament (de Controls del formulari) i situar-la prop de la cel·la <strong>E5</strong>.<br/>
+
+<strong>8</strong>. Enllaçar aquesta barra a la cel·la <strong>E5</strong> amb un valor mínim de <strong>0</strong> i un valor màxim de <strong>20</strong>.<br/>
+
+<strong>9</strong>. Esciure a la cel·la <strong>G8</strong>: <strong>=H8-E5</strong><br/>
+
+<div class="noteclassic">El valor de la cel·la <strong>G8</strong> és el resultat de restar el valor del cel·la <strong>H8</strong> menys el marge d&#039;error que apareixen la cel·la <strong>E5</strong> (variable independent). Axí s&#039;aconsegueix el mínim valor que es pot proposar perquè es consideri l&#039;activitat ben resolta tenint ent compte el marge d&#039;error que es permet.
+</div>
+<strong>10</strong>. Escriure a la cel·la <strong>I8</strong>: <strong>=H8+E5</strong><br/>
+
+<div class="noteclassic">El valor de la cel·la <strong>I8</strong> és el resultat de sumar el valor de la cel·la <strong>H8</strong> més el marge d&#039;error que apareixen la cel·la <strong>E5</strong> (variable independent). Així s&#039;aconsegueix el màxim valor que es pot proposar perquè es consideri l&#039;activitat ben resolta tenint en compte el marge d&#039;error que es permet.
+</div><br/>
+
+<strong>11</strong>. Escriure a la cel·la <strong>F8</strong>: <strong>=SI(E8=&quot;&quot;;&quot;&quot;;SI(I(E8&gt;=G8;E8
+&lt;=I8);&quot;bé&quot;;&quot;no&quot;))</strong><br/>
+
+<div class="noteclassic">Amb aquesta fórmula apareix el &quot;bé&quot; si el que s&#039;ha escrit a la cel·la <strong>E8</strong> està dintre del marge d&#039;error.
+</div>
+<strong>12</strong>.Escriure a la cel·la <strong>G10</strong>: <strong>=H10-E5</strong><br/>
+
+<strong>13</strong>.Escriure a la cel·la <strong>I10</strong>: <strong>=H10+E5</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera els valor de les cel·les <strong>G10</strong> i <strong>I10</strong> aniran canviant en funció del marge d&#039;error que es fa amb la barra de desplaçament.
+</div>
+<strong>14</strong>. Escriure a la cel·la <strong>F10</strong>: <strong>=SI(E10=&quot;&quot;;&quot;&quot;;SI(I(E10&gt;=G10;E10
+&lt;=I10);&quot;bé&quot;;&quot;no&quot;))</strong><br/>
+
+<strong>15</strong>. A la cel·la <strong>D8</strong> es pot escriure un text semblant al següent: &quot;graus aproximats de la zona vermella tenint en compte el marge d&#039;error:&quot;<br/>
+
+<strong>16</strong>. A la cel·la <strong>D10</strong> es pot escriure un text semblant al següent: graus aproximats de la zona blava tenint en compte el marge d&#039;error:<br/>
+
+<strong>17</strong>. Fer que les cel·les <strong>D8</strong> i <strong>D10</strong> tinguin els següents atributs:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Alçada: 1,00cm</div>
+</li>
+<li class="level1"><div class="li">Amplada: 8,00cm</div>
+</li>
+</ul>
+
+<p>
+<strong>18</strong>. A les cel·les <strong>E8</strong> i <strong>E10</strong> l&#039;alumne escriu les possibles solucions de l&#039;activitat. Aquestes cel·les poden tenir els següent atributs:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">color de la lletra: negre</div>
+</li>
+<li class="level1"><div class="li">tipus de lletra: Arial</div>
+</li>
+<li class="level1"><div class="li">mida: 14</div>
+</li>
+<li class="level1"><div class="li">color de fons: Sun 4</div>
+</li>
+<li class="level1"><div class="li">centrar horitzontal i verticalment el contingut de les cel·les</div>
+</li>
+</ul>
+
+<p>
+<strong>19</strong>. Fer visible les línies de contorn de les cel·les dels rangs <strong>D8:E8</strong> i <strong>D10:E10</strong><br/>
+
+<strong>20</strong>. Fer una macro amb les següent funcions:
+</p>
+<ul>
+<li class="level1"><div class="li">Esborrar el contingut de la cel·les <strong>E8</strong> i <strong>E10</strong>.<br/>
+</div>
+</li>
+<li class="level2"><div class="li">Assignar a la cel·la <strong>A1</strong> el valor de <strong>0</strong><br/>
+</div>
+</li>
+<li class="level2"><div class="li">Que la cel·la <strong>E8</strong> rebi el focus.<br/>
+</div>
+</li>
+</ul>
+
+<p>
+<strong>21</strong>. Validar la cel·la <strong>A1</strong> per al valor <strong>0</strong>.<br/>
+
+<strong>22</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>23</strong>. Protegir posició i mida del gràfic i de la barra de desplaçament.<br/>
+
+<strong>24</strong>. Ocultar les cel·les que convingui.<br/>
+
+<strong>25</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>26</strong>. Desar el fitxer <strong>M6</strong>.<br/>
+
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

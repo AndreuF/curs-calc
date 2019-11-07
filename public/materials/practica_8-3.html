@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 6 - Pr&agrave;c. 8</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-7.html"><</a></li>  <li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>  <li><a href="practica_2-6.html">Pr&agrave;c. 2</a></li>  <li><a href="practica_3-6.html">Pr&agrave;c. 3</a></li>  <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>  <li><a href="practica_5-6.html">Pr&agrave;c. 5</a></li>  <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>  <li><a href="practica_7-3.html">Pr&agrave;c. 7</a></li>  <li id="active"><a id="current" href="#">Pr&agrave;c. 8</a></li>  <li><a href="practica_9-2.html">Pr&agrave;c. 9</a></li>  <li><a href="practica_10.html">Pr&agrave;c. 10</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="multiplicacio_desenvolupada_amb_detectiu" id="multiplicacio_desenvolupada_amb_detectiu">Multiplicació desenvolupada amb detectiu</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/multiplicacio_detectiu.png" class="media" alt="" />
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#valor" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=VALOR()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#mig" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=MIG()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#long" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=LONG()</a></div>
+</li>
+<li class="level1"><div class="li">Operadors de sumar (+), multiplicar (*) i desigual (&lt; &gt;)</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Fer una multilplicació desenvolupada amb autoavaluació i amb la possibilitat de comprovar on són els erros si els hi ha.</div>
+</li>
+<li class="level1"><div class="li">Fer una multiplicació desenvolupada amb menys passos dels que es van fer a la pràctica <a href="practica_3-2.html#multiplicacio_desenvolupada_d_un_numero_de_tres_digits_per_un_altre_de_dos_digits" class="wikilink1" title="cursos:tic:d228:modul_2:practica_3">M2P3 multiplicació 3 2</a><br/>
+</div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1.</strong> Obrir el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P8 multiplicar amb detectiu</strong>.<br/>
+
+<strong>2.</strong> Escriure a la cel·la <strong>K4</strong>: <strong>=SI($A$1=0;ALEATENTRE(1;9))</strong><br/>
+
+<strong>3.</strong> Copiar la cel·la <strong>K4</strong> i enganxar-la a les cel·es del rang <strong>L4:M5</strong><br/>
+
+<strong>4.</strong> Connectar les cel·les <strong>K7:M7</strong><br/>
+
+<strong>5.</strong> Escriure a la cel·la <strong>k7</strong>: <strong>=VALOR($K$4&amp;$L$4&amp;$M$4)*M5</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera s&#039;obté el resultat de la primer filera de la multiplicació
+</div>
+<strong>6.</strong> Connectar les cel·les <strong>K8:L8</strong><br/>
+
+<strong>7.</strong> Escriure a la cel·la <strong>K8</strong>: <strong>=VALOR($K$4&amp;$L$4&amp;$M$4)*L5</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera s&#039;obté el resultat de la segona filera de la multiplicació
+</div>
+<strong>8.</strong> Connectar les cel·les <strong>K10:M10</strong><br/>
+
+<strong>9.</strong> Escriure a la cel·la<strong> K10</strong>: <strong>=K7+K8*10</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera s&#039;obté el resultat final de la multiplicació
+</div>
+<strong>10.</strong> Escriure a la cel·la <strong>F4</strong>: <strong>=K4</strong><br/>
+
+<strong>11.</strong> Copiar la cel·la <strong>F4</strong> i enganxar-la a les cel·les del rang <strong>G4:H5</strong><br/>
+
+<strong>12.</strong> Escriure el signe de multiplicar a la cel·la <strong>E5</strong><br/>
+
+<strong>13.</strong> Fer que les cel·les del rang <strong>E6:H6</strong> tinguin els següents atributs:<br/>
+
+Alçada: <strong>0,10cm</strong><br/>
+
+Color de fons: <strong>negre</strong>.<br/>
+
+<strong>14.</strong> Aplicar els mateixos atributs a les cel·les del rang <strong>D9:H9</strong><br/>
+
+<strong>15.</strong> Aplicar el color de fons gris 10% als següents rangs de cel·les: <strong>E7:H7</strong>, <strong>D8:G8</strong>, <strong>D10:H10</strong><br/>
+
+<strong>16.</strong> Aplicar el color de fons<strong> taronja 4</strong> a les cel·les: <strong>I7</strong>, <strong>I8</strong> i <strong>I10</strong><br/>
+
+<div class="noteclassic">A les cel·les del rang <strong>E7:H7</strong>, <strong>D8:G8</strong> i <strong>D10:H10</strong> s&#039;escriuran els números que convingui quan es faci la multiplicació.
+</div>
+<strong>17.</strong> Escriure a la cel·la <strong>J7</strong>: <strong>=E7&amp;F7&amp;G7&amp;H7</strong><br/>
+
+<div class="noteclassic">D&#039;aquesta manera es concatenen els valors de les cel·les del rang <strong>E7:H7</strong> i que servirà de base per comparar-ho amb el valor de la cel·la <strong>K7</strong>.
+</div>
+<strong>18.</strong> Escriure a la cel·la <strong>I7</strong>:<strong> =SI(LONG(J7)&lt;&gt;LONG(M7);&quot;&quot;;SI(EXACTE(J7;M7);&quot;bé&quot;;&quot;no&quot;)))</strong><br/>
+
+<div class="noteclassic">Si al comparar els valors de les cel·les <strong>J7</strong> i <strong>K7</strong> són exactes, llavors apareix el <strong> “bé”</strong>; si no, apareix el <strong>“no”</strong>.
+</div>
+<div class="noteclassic">Per avaluar la segona fila i avaluar la fila del resultat final de la multiplicació, es segueix un procediment semblant.
+</div>
+<strong>Comprovació d&#039;errors (detectiu)</strong>.
+<div class="noteclassic">Tenint en compte que a la cel·la <strong>K7</strong> es mostra la solució de la primera fila de la multiplicació, només caldrà extreure el valor de les unitats d&#039;aquesta cel·la per comparar-lo amb el valor que s&#039;hagi escrit a la cel·la <strong>H7</strong> sabent així si hi ha error o no. Per tant, caldrà extraure cada un dels números de les cel·les que mostren les solucions de cada fila, per poder-ho comparar amb cada un dels valors que s&#039;hagi anat escrivint en resoldre la multiplicació.<br/>
+
+<br/>
+
+Es convenient tenir en compte que en la primera i la segona fila del desenvolupament de la multiplicació pot haver-hi <strong>3</strong> o <strong>4</strong> números, i en la tercera fila (el resultat de la multiplicació) pot haver-hi de <strong>4</strong> a <strong>5</strong> números. Aquests números estan representats de manera concatenada  a les cel·les
+<strong>K7</strong>, <strong>K8</strong> i <strong>K10</strong>.
+</div>
+Per saber quants números hi ha a les cel·les <strong>K7</strong>, <strong>K8</strong> i <strong>K10</strong> es pot fer el següent:<br/>
+
+<strong>1</strong>. Escriure la fórmula <strong>=LONG(K7)</strong> a la cel·la <strong>S7</strong>. Un vegada se sap quants números té aquesta fila, s&#039;escriu la fórmula <strong>=VALOR(MIG(K7;S7;1))</strong> a la cel·la <strong>R7</strong> i així s&#039;obté el número corresponent a les unitats.<br/>
+
+<div class="noteclassic">Es pot estretir l&#039;amplada de les columnes per axí visualitzar millor tot l&#039;exercici.
+</div>
+<strong>2</strong>. Per extraure el valor de la desena del número que hi ha a la cel·la <strong>K7</strong>, s&#039;escriu a la cel·la <strong>Q7: =VALOR(MIG(K7;S7-1;1))</strong>. Observar que a la cel·la <strong>S7</strong> es resta una unitat amb la qual cosa s&#039;extreu el valor de la desena.<br/>
+
+<strong>3</strong>. Per extraure el valor de la centena del número que hi ha a la cel·la <strong>K7</strong>, s&#039;escriu a la cel·la <strong>P7</strong>: <strong>=VALOR(MIG(K7;S7-2;1))</strong>. Observar que a la cel·la <strong>S7</strong> es resten dues unitats amb la qual cosa s&#039;extreu el valor de la centena.<br/>
+
+<strong>4</strong>. Per extraure el valor de la unitat de miler que hi ha a la cel·la <strong>K7</strong>, s&#039;escriu a la cel·la <strong>O7</strong>: <strong>=SI(S7=3;&quot;&quot;;VALOR(MIG(K7;1;1)))</strong>.<br/>
+
+</p>
+
+<p>
+Un vegada es tenen per separat els valors reals de la solució i els valors que s&#039;hagin escrit en fer la multiplicació, es quan es poden comparar
+per comprovar si hi ha errors o no. Per comprovar-ho, es pot fer el següent:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Fer clic a la cel·la <strong>H7</strong> i anar a Dades | Validesa | i clic a la solapa de <strong>criteri</strong></div>
+</li>
+<li class="level1"><div class="li">Del desplegable del bloc  <strong>Permet</strong>, fer clic en <strong>Nombres complets</strong></div>
+</li>
+<li class="level1"><div class="li">Escriure a la casella del bloc <strong>Valor</strong> el següent: <strong>&#039;M6P8 multiplicar amb detectiu&#039;.R7</strong></div>
+</li>
+<li class="level1"><div class="li">Fer clic en <strong>D&#039;acord</strong></div>
+</li>
+</ul>
+
+<p>
+Obsevar el següent gràfic:<br/>
+
+<img src="png/m6p8_multiplicar_amb_detectiu_4.png" class="media" alt="" />
+<br/>
+
+Ara, per comprovar que funcioni el marcador d&#039;errors, fer el següent:<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Escriure un número a la cel·la <strong>H7</strong> un número diferent del que hi hagi a la cel·la <strong>R7</strong>.</div>
+</li>
+<li class="level1"><div class="li">Anar a <strong>Eines</strong> | <strong>Detectiu</strong> | <strong>Marca les dades no vàlides</strong>. Havent-ho fet, hauria d&#039;aparèixer un cercle vermell (marcador de dada no vàlida) encerclant la cel·la <strong>H7</strong>.</div>
+</li>
+</ul>
+
+<p>
+
+Per esborrar el marcador d&#039;errors, anar a <strong>Eines</strong> | <strong>Detectiu</strong> | i clic en <strong>Suprimir tots els rastres</strong>.<br/>
+
+Per comprovar si hi ha errors en la resta de números de la multiplicació es segueix el mateix procediment.
+<div class="noteclassic">Com es pot observar, aquesta activitat no està totalment explicada encara que hi ha suficient informació per acabar-la. Com a <strong>setè exercici</strong> d&#039;aquest mòdul, es proposa acabar-la i presentar-la com es veu en la presentació gràfica de l&#039;activitat tenint en compte que funcionin correctament les macros i les cel·les d&#039;avaluació. No oblidar de protegir i ocultar les cel·les que convingui.
+</div>
+Desar el fitxer<strong> M6</strong>
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

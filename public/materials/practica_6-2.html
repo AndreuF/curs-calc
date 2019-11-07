@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 2 - Exercici 6</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-3.html"><</a></li>  <li><a href="practica_1-2.html">Exercici 1</a></li>  <li><a href="practica_2-2.html">Exercici 2</a></li>  <li><a href="practica_3-2.html">Exercici 3</a></li>  <li><a href="practica_4-2.html">Exercici 4</a></li>  <li><a href="practica_5-2.html">Exercici 5</a></li>  <li id="active"><a id="current" href="#">Exercici 6</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h2><a name="estudi_grafic_de_fenomens_fisics_i_quimics" id="estudi_grafic_de_fenomens_fisics_i_quimics">Estudi gràfic de fenòmens físics i químics</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><a name="intensitat_d_un_camp_electric_al_llarg_d_un_segment" id="intensitat_d_un_camp_electric_al_llarg_d_un_segment">Intensitat d&#039;un camp elèctric al llarg d&#039;un segment</a></h3>
+<div class="level3">
+
+<p>
+Es tracta que construiu la gràfica que mostri com varia la intensitat de camp en els punts entre dues càrregues <strong>Q1</strong> i <strong>Q2</strong> situades a un metre de distància.<br/>
+
+</p>
+
+<p>
+La fórmula que determina aquest valor és<br/>
+<br/>
+<img src="png/formulacamp.png" class="media" title="Fórmula de la intensitat de camp" alt="Fórmula de la intensitat de camp" /><br/>
+<br/>
+on <strong>x</strong> és la distància del punt on el vol calcular el valor del camp, a la primera càrrega i, evidentment, <strong>1-x</strong> la distància a la segona càrrega. el valor de la constant és<br/>
+<img src="png/formulacamp2.png" class="media" title=" " alt=" " />
+</p>
+
+<p>
+En la representació gràfica atendreu a les següents consideracions
+</p>
+<ul>
+<li class="level1"><div class="li">La intensitat de camp elèctric és un vector, però com treballareu al llarg d&#039;un segment, només considerareu el mòdul, tot i prescindint de la direcció</div>
+</li>
+<li class="level1"><div class="li">Com només ens interessa la forma gràfica, prescindireu del valor de la constant, ja que es pot considerar com un valor d&#039;escala de la representació gràfica</div>
+</li>
+</ul>
+
+</div>
+
+<h4><a name="prepareu_el_full_de_calcul" id="prepareu_el_full_de_calcul">Prepareu el full de càlcul</a></h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li">Obrir el fitxer <strong>M2</strong> i afegir un nou full amb el nom de <strong>M2P6 Intensitat d&#039;un camp elèctric</strong>.<br/>
+</div>
+</li>
+<li class="level1"><div class="li">Prepareu dues cel·les on escriureu els valors de les càrregues (positius o negatius)<br/>
+<img src="png/fullcamp1.png" class="media" alt="" /></div>
+</li>
+<li class="level1"><div class="li">Empleneu una columna amb dinou valors equidistants entre <strong>0</strong> i <strong>1</strong>, però sense que incloguin aquests per evitar errors en el resultat de les fórmules. Recordeu el que s&#039;explicava a la <a href="practica_5-2.html" class="wikilink1" title="cursos:tic:d228:modul_2:practica_5">Exercici 5</a></div>
+</li>
+<li class="level1"><div class="li">Definiu les àrees de dades <strong>X</strong> (la taula de dades del punt anterior), <strong>carrega1</strong> (el valor de Q1) i <strong>carrega2</strong> (el valor de Q2). En aquest cas no es poden utilitzar <strong>Q1</strong> ni <strong>Q2</strong> com a noms d&#039;àrees ja que coincideixen amb referències a cel·les del full.</div>
+</li>
+<li class="level1"><div class="li">En la columna de la dreta inseriu la fórmula de la intensitat de camp<br/>
+<strong>=ABS(carrega1/x^2-carrega2/(1-x)^2)</strong></div>
+</li>
+<li class="level1"><div class="li">Copieu la fórmula a la resta de cel·les de la columna. El resultat hauria de ser semblant a aquest<br/>
+<br/>
+<img src="png/fullcamp3.png" class="media" title="Aspecte del full" alt="Aspecte del full" /></div>
+</li>
+</ul>
+
+</div>
+
+<h4><a name="construiu_el_grafic" id="construiu_el_grafic">Construïu el gràfic</a></h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li">Seguiu les pautes de la <a href="practica_5-2.html" class="wikilink1" title="cursos:tic:d228:modul_2:practica_5">Exercici 5</a></div>
+</li>
+<li class="level1"><div class="li">En aquest gràfic no necessiteu afegir eixos secundaris; només haureu de definir el format, quant a l&#039;escala de l&#039;eix <strong>X</strong>, tal com podeu veure en la imatge<br/>
+<br/>
+<img src="png/fullcamp4.png" class="media" title="Valors de l&#039;escala de X" alt="Valors de l&#039;escala de X" /><br/>
+<br/>
+</div>
+</li>
+<li class="level1"><div class="li">Amb l&#039;opció de menú <strong>Insereix | Títol</strong> definiu els els títols dels eixos tal com veieu en la figura<br/>
+<br/>
+<img src="png/fullcamp5.png" class="media" title="Títols dels eixos" alt="Títols dels eixos" /></div>
+</li>
+<li class="level1"><div class="li">Podeu fer mostrar només dos decimal als valors <strong>X</strong> de la taula perquè els valors que apareixen a l&#039;eix <strong>X</strong> del gràfic siguin llegibles (premeu <em>F9</em> per forçar l&#039;actualització del diagrama)</div>
+</li>
+<li class="level1"><div class="li">El resultat final s&#039;ha de semblar al següent:<br/>
+<br/>
+<img src="png/fullcamp6.png" class="media" title="Resultat del gràfic" alt="Resultat del gràfic" /></div>
+</li>
+<li class="level1"><div class="li">Deseu el resultat.</div>
+</li>
+</ul>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

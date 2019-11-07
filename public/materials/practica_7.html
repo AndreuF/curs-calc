@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 4 - Exercici 7</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-5.html"><</a></li>  <li><a href="practica_1-4.html">Exercici 1</a></li>  <li><a href="practica_2-4.html">Exercici 2</a></li>  <li><a href="practica_3-4.html">Exercici 3</a></li>  <li><a href="practica_4-4.html">Exercici 4</a></li>  <li><a href="practica_5-4.html">Exercici 5</a></li>  <li><a href="practica_6-4.html">Exercici 6</a></li>  <li id="active"><a id="current" href="#">Exercici 7</a></li>  <li><a href="practica_8.html">Exercici 8</a></li>  <li><a href="practica_9.html">Exercici 9</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="ordenar_paraules_per_fer_una_oracio" id="ordenar_paraules_per_fer_una_oracio">Ordenar paraules per fer una oració.</a></h1>
+<div class="level1">
+
+<p>
+<strong>Presentació gràfica de l&#039;activitat.</strong><br/>
+
+<img src="png/ordenar_paraules_d_una_oracio.png" class="media" alt="" />
+<br/>
+
+<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#consultav" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=CONSULTAV()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#comptasi" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=COMPTASI()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#valor" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=VALOR()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#mig" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=MIG()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#o" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=O()</a></div>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Ordenar paraules d&#039;una oració.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M4</strong> i afegir un nou full amb el nom de <strong>M4P7 ordenar paraules</strong><br/>
+
+<strong>2</strong>. Escriure a la cel·la <strong>B2</strong> el següent text: Es tracta d&#039;escriure a la cel·la de color gris una oració fent servir les paraules de les cel·les de color taronja. L&#039;ordre de les paraules seguirà la següent pauta: escriure primer el subjecte, després el verb i a continuació el complement del verb. No oblidar de posar el punt final de l&#039;oració.<br/>
+
+<strong>3</strong>. Escriure en cada una de les cel·les del rang <strong>S3:X12</strong> el següent:<br/>
+
+<br/>
+
+<img src="png/oracions1.png" class="media" alt="" /><br/>
+
+Aquestes seran les oracions les paraules de les quals es presentaran desordenades.<br/>
+
+<br/>
+
+<strong>4</strong>. Escriure a la cel·la <strong>R3</strong>: <strong>=SI(J2=0;ALEATENTRE(1;10))</strong><br/>
+
+<div class="noteclassic">Aquesta fórmula servirà de suport per triar una oració de les deu que s&#039;escriuran al rang T3:X12.
+</div><br/>
+
+<strong>5</strong>. Escriure a la cel·la <strong>k3</strong>: <strong>1</strong><br/>
+
+<strong>6</strong>. Extendre la cel·la <strong>k3</strong> fins la cel·la <strong>O3</strong><br/>
+
+<div class="noteclassic"> Els números que hi ha a les cel·les del rang <strong>K3:03</strong> (de l&#039;1 al 5) serviran de base per triar números no repetits.
+</div><br/>
+
+<strong>10</strong>. Escriure a la cel·la <strong>K4</strong>:<strong>=SI(J2=0;CONSULTAV(R3;S3:X12;2))</strong>.
+<div class="noteclassic">Fa una CONSULTA vertical a la segona columna del rang <strong>S3:X12</strong> en funció del número que hi ha a la cel·la <strong>R3</strong>. El número que hi ha a la cel·la <strong>R3</strong> correspont a la fila de l&#039;oració.
+</div><br/>
+
+<strong>11</strong>. Escriure a la cel·la <strong>L4</strong>: <strong>=SI(J2=0;CONSULTAV(R3;S3:X12;3))</strong>. El mateix fent la CONSULTA  a la columna 3.<br/>
+
+<strong>12</strong>. Escriure a la cel·la <strong>M4</strong>: <strong>=SI(J2=0;CONSULTAV(R3;S3:X12;4))</strong>. El mateix fent la CONSULTA  a la columna 4.<br/>
+
+<strong>13</strong>. Escriure a la cel·la <strong>N4</strong>: <strong>=SI(J2=0;CONSULTAV(R3;S3:X12;5))</strong>. El mateix fent la CONSULTA  a la columna 5.<br/>
+
+<strong>14</strong>. Escriure a la cel·la <strong>O4</strong>: <strong>=SI(J2=0;CONSULTAV(R3;S3:X12;6))</strong>. El mateix fent la CONSULTA  a la columna 6.<br/>
+
+<strong>15</strong>. Escriure a la cel·la <strong>Q4</strong>: <strong>=K4&amp;&quot; &quot;&amp;L4&amp;&quot; &quot;&amp;M4&amp;&quot; &quot;&amp;N4&amp;&quot; &quot;&amp;O4</strong><br/>
+
+<strong>16</strong>. Escriure a la cel·la <strong>Q2</strong> =<strong>Q4&amp;&quot;.&quot;</strong><br/>
+
+<div class="noteclassic">Per presentar una oració amb les paraules desordenades es pot fer associant cada paraula a un número aleatori. D&#039;aquesta manera si l&#039;oració està formada per cinc paraules, caldrà presentar cinc números.
+Cal tenir en compte que les paraules es poden presentar desordenades però no repetides. Llavors es tracta de presentar cinc números aleatoris de l&#039;1 al 5 que no estiguin repetits i que la majoria de vegades estiguin desordenats. Per resoldre aquesta qüestió es pot fer el següent:
+</div><br/>
+
+<strong>17</strong>. Escriure en cada una de les cel·les del rang <strong>K5:O5</strong> el següent: <strong>=SI(J2=0;ALEATENTRE(1;5))</strong>.
+<div class="noteclassic">Aquests aleatoris serviran de base per a triar cinc números sense que hi hagi cap número repetit.
+</div><br/>
+	<strong>18</strong>. Escriure a la cel·la <strong>K6</strong>: <strong>=COMPTASI($K$5:$O$5;K5)</strong>.
+<div class="noteclassic">Aquesta fórmula permet saber quantes vegades està repetit el número que hi ha a la cel·la <strong>K5</strong>.
+</div><br/>
+<strong>19</strong>. Copiar la cel·la <strong>K6</strong> i enganxar-ho a les cel·les del rang <strong>L6:O6</strong><br/>
+
+<div class="noteclassic">Sabent quantes vegades es repeteix un número, caldrà fer una fórmula que permeti seleccionar els aleatoris no repetits (les cel·les del rang <strong>K6:O6</strong> que tinguin el valor <strong>1</strong>), fent així la primera tria de números no repetits.
+</div><br/>
+
+<strong>20</strong>. Escriure a la cel·la <strong>K7</strong>: <strong>=SI(K6=1;K5;&quot;&quot;)</strong>. Aquesta fórmula permetrà seleccionar els números aleatoris no repetits fent així la primera tria.<br/>
+
+<strong>21</strong>. Copiar la cel·la <strong>K7</strong> i enganxar-ho a les cel·les del rang <strong>L7:O7</strong>.<br/>
+
+<div class="noteclassic">Havent fet la primera tria del números no repetits del rang <strong>K7:O7</strong>, caldrà fer una segona tria comparant els rangs <strong>K7:O7</strong> amb el rang <strong>K3:O3</strong> i així fer la segona tria del números no repetits.
+</div><br/>
+
+<strong>22</strong>. Escriure a la cel·la <strong>K8</strong>: <strong>=SI(COMPTASI($K$7:$O$7;K3)=0;K3;&quot;&quot;)</strong><br/>
+
+<strong>23</strong>. Copiar la cel·la <strong>K8</strong> i enganxar-ho a les cel·les del rang <strong>L8:O8</strong><br/>
+
+<div class="noteclassic">Havent fet la primera i la segona tria, es concatenen les cel·les del rang <strong>K7:O8</strong> (pas <strong>24</strong>) i així s&#039;obté una cadena seguida de números no repetits.
+</div><br/>
+
+<strong>24</strong>. Escriure a la cel·la <strong>K9</strong>: <strong>=K7&amp;L7&amp;M7&amp;N7&amp;O7&amp;K8&amp;L8&amp;M8&amp;N8&amp;O8</strong><br/>
+
+<div class="noteclassic">Un cop estigui feta la concatenació a la cel·la <strong>K9</strong> del rang <strong>K7:O8</strong>, caldrà fer l&#039;extracció mitjançant la funció <strong>MIG</strong> de cada un dels números de la cel·la <strong>K9</strong> i convertir-los en <strong>VALOR</strong> (passos 25, 26, 27, 28 i 29) per a ser reconeguts com a números quan es faci servir més endavant la funció <strong>CONSULTA</strong>.
+</div>.<br/>
+
+<strong>25</strong>. Escriure a la cel·la <strong>K10</strong>: <strong>=VALOR(MIG(K9;1;1))</strong><br/>
+
+<strong>26</strong>. Escriure a la cel·la <strong>L10</strong>: <strong>=VALOR(MIG(K9;2;1))</strong><br/>
+
+<strong>27</strong>. Escriure a la cel·la <strong>M10</strong>: <strong>=VALOR(MIG(K9;3;1))</strong><br/>
+
+<strong>28</strong>. Escriure a la cel·la <strong>N10</strong>: <strong>=VALOR(MIG(K9;4;1))</strong><br/>
+
+<strong>29</strong>. Escriure a la cel·la <strong>O10</strong>: <strong>=VALOR(MIG(K9;5;1))</strong><br/>
+
+<div class="noteclassic">Una vegada estigui feta la l&#039;extracció de cada un dels números de la cel·la <strong>K9</strong> en cada una de les cel·les del rang <strong>K10:O10</strong>, es fa les següents consultes per obtenir les paraules desordenades.
+</div><br/>
+
+<strong>30</strong>. Escriure a la cel·la <strong>B8</strong>: <strong>=CONSULTA(K10;$K$3:$O$3;$K$4:$O$4)</strong><br/>
+
+<strong>31</strong>. Copiar la cel·la <strong>B8</strong> i enganxar-ho a les cel·les del rang <strong>C8:F8</strong><br/>
+
+<strong>32</strong>. Connectar les cel·les del rang <strong>B9:F9</strong><br/>
+
+<strong>33</strong>. Assignar a les cel·les del rang <strong>B8:F8</strong> els següents atributs: <br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li">Color de la lletra: negre	</div>
+</li>
+<li class="level1"><div class="li">Tipus de lletra: Arial	</div>
+</li>
+<li class="level1"><div class="li">Mida: 14</div>
+</li>
+<li class="level1"><div class="li">Color de fons: taronja 4</div>
+</li>
+<li class="level1"><div class="li">Centrar horitzontal i verticalment el contingut de les cel·les</div>
+</li>
+<li class="level1"><div class="li">Fer visibles totes les línies de les vores de les cel·les</div>
+</li>
+</ul>
+
+<p>
+<strong>34</strong>. Assignar els següents atributs a les cel·les del rang <strong>B9:F9</strong>
+</p>
+<ul>
+<li class="level1"><div class="li">Color de la lletra: negre</div>
+</li>
+<li class="level1"><div class="li">Tipus de lletra: Arial</div>
+</li>
+<li class="level1"><div class="li">Mida: 14</div>
+</li>
+<li class="level1"><div class="li">Color de fons: gris 20%</div>
+</li>
+<li class="level1"><div class="li">Centrar horitzontal i verticalment el contingut de les cel·les</div>
+</li>
+<li class="level1"><div class="li">Fer visibles les línies de les vores de la cel·la <strong>B9</strong> (resultat de connectar les cel·les del rang <strong>B9:F9</strong>)</div>
+</li>
+</ul>
+
+<p>
+<strong>35</strong>. Escriure a la cel·la <strong>G9</strong>: <strong>=SI(B9=&quot;&quot;;&quot;&quot;;SI(O(B9=Q2;B9=Q4);&quot;bé&quot;;&quot;no&quot;))</strong><br/>
+
+<strong>36</strong>. Escriure a la cel·la <strong>H9</strong>: <strong>=SI(B9=Q4;&quot;(però manca el punt final de l&#039;oració)&quot;;&quot;&quot;)</strong><br/>
+
+<strong>37</strong>. Fer una macro amb les següent funcions:
+</p>
+<ul>
+<li class="level1"><div class="li">Esborrar el contingut de la cel·la <strong>B9</strong></div>
+</li>
+<li class="level3"><div class="li">Assignar a la cel·la <strong>J2</strong> el valor de <strong>0</strong>. O si es prefereix, prémer les tecles <strong>Ctrl+majúscules+F9</strong></div>
+</li>
+<li class="level3"><div class="li">Nota: En prémer les tecles <strong>Ctrl+majúscules+F9</strong> també s&#039;actualitzen els aleatoris justament perquè el full de càlcul interpreta que el valor de la cel·la <strong>J2</strong> és zero per ser una cel·la sense contingut.		</div>
+</li>
+<li class="level3"><div class="li">Que la cel·la <strong>B9</strong> rebi el focus<br/>
+</div>
+</li>
+</ul>
+
+<p>
+<strong>38</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro feta anteriorment.<br/>
+
+<strong>39</strong>. Validar la cel·la <strong>A1</strong> per al valor<strong> 0</strong>.<br/>
+
+<strong>40</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>41</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>42</strong>. Fer que els continguts de les cel·les del rang <strong>J2:X12</strong> no siguin visibles.<br/>
+
+<strong>43</strong>. Desar el fitxer <strong>M4</strong><br/>
+
+<br/>
+
+Hi ha una altra manera de fer un número aleatori de nou dígits sense repetir cap dígit. Observar els següents gràfics on a la cel·la <strong>C4</strong> es veu el resultat.<br/>
+
+<img src="png/aleat9c.png" class="media" alt="" />
+Havent escrit aquestes fórmules, només caldria seleccionar el rang <strong>E2:E4</strong> i s&#039;estendre&#039;l fins la columna <strong>K</strong>. El número aleatori de nou dígits no repetits es mostra a la cel·la <strong>C4</strong><br/>
+
+<div class="noteclassic">
+Fent algunes variacions, es podrien presentar oracions de més de nou paraules on cada oració podria tenir un número diferent de paraules. Observar l&#039;exemple gràfic d&#039;ordenar oracions on hi ha escrit
+<strong>Ordenar paraules</strong> de la pràctica 4 del mòdul 7.
+</div>
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>

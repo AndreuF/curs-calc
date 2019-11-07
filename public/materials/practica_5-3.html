@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    UF4. Fulls de càlcul
+  </title>
+
+  <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+
+  <!--<script type="text/javascript" src="http://ateneu.xtec.cat/dades/wikiform/html/MathJax/MathJax.js"></script>-->
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="dokuwiki">
+
+
+<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> M&ograve;dul 3 - Exercici 5</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-4.html"><</a></li>  <li><a href="practica_1-3.html">Exercici 1</a></li>  <li><a href="practica_2-3.html">Exercici 2</a></li>  <li><a href="practica_3-3.html">Exercici 3</a></li>  <li><a href="practica_4-3.html">Exercici 4</a></li>  <li id="active"><a id="current" href="#">Exercici 5</a></li>  <li><a href="practica_6-3.html">Exercici 6</a></li></ul></div></div>
+
+
+  <div class="page">
+
+    <!-- ......... wikipage start ......... -->
+
+<h1><a name="fraccions_equivalents" id="fraccions_equivalents">Fraccions equivalents</a></h1>
+<div class="level1">
+
+<p>
+
+<strong>Presentació gràfica de l&#039;activitat</strong><br/>
+
+<img src="png/m3p5_1.png" class="media" alt="" /><br/>
+
+</p>
+
+<p>
+<strong>Funcions que es faran servir en aquesta activitat:</strong><br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#o" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=O()</a></div>
+</li>
+<li class="level1"><div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a></div>
+</li>
+</ul>
+
+<p>
+<strong>Objectiu de l&#039;activitat</strong><br/>
+
+Calcular una fracció equivalent partint d&#039;una altra i fer la comparació gràfica mitjançant diagrames de sectors.<br/>
+
+<br/>
+
+<strong>Desenvolupament de l&#039;activitat</strong><br/>
+
+<br/>
+
+<strong>1</strong>. Obrir el fitxer <strong>M3</strong> i afegir un nou full anomenant-lo <strong>M3P5 fraccions equivalents diagrames</strong><br/>
+
+<strong>2</strong>. Escriure a la cel·la <strong>B6</strong>: <strong>=SI(A1=0;ALEATENTRE(1;6))</strong><br/>
+
+<strong>3</strong>. Escriure a la cel·la <strong>B8</strong>:<strong>=SI(A1=0;ALEATENTRE(B6+1;10))</strong><br/>
+
+<strong>4</strong>.Fer que el fons de les cel·les <strong>B6</strong> i <strong>B8</strong> sigui verd.<br/>
+
+<strong>5</strong>. Escriure a la cel·la <strong>F6</strong>: <strong>=SI(I(B6=D6;B8=D8);&quot;&quot;;SI(O(D6=&quot;&quot;;D8=&quot;&quot;);&quot;&quot;;SI(B6*D8=B8*D6;&quot;bé&quot;;&quot;no&quot;)))</strong> per avaluar l&#039;activitat.<br/>
+
+<strong>6</strong>. Fusionar les cel·les <strong>F6:F8</strong> i fer que el fons de la cel·la <strong>F6</strong> sigui de color taronja 4. Aquesta cel·la avaluarà l&#039;activitat.<br/>
+
+<strong>7</strong>. Fer que el color de fons de les cel·les <strong>D6</strong> i <strong>D8</strong> sigui gris 20%. En aquestes cel·les l&#039;alumne escriurà les solucions.<br/>
+
+<strong>8</strong>. Escriure a la cel·la <strong>B22</strong>: <strong>=SI(O(D6=&quot;&quot;;D8=&quot;&quot;);&quot;&quot;;SI(I(B6=D6;B8=D8);&quot;S&#039;ha escrit la mateixa fracció. Cal escriure una fracció que no sigui la mateixa que la que es proposa.&quot;;&quot;&quot;))</strong>. En cas que l&#039;alumne escrigui la mateixa fracció, es mostra la informació pertinent en aquesta cel·la<br/>
+
+<strong>9</strong>. Fusionar les cel·les del rang <strong>B22:D26</strong> i fer que el color de fons de la cel·la sigui Sun 4<br/>
+
+<strong>10</strong>. Inserir un quadre de text on s&#039;escrigui el següent:  <em>Es tracta d&#039;escriure a les cel·les de color gris  una fracció equivalent a la que hi ha a les cel·les de color verd sense tornar a escriure la mateixa fracció i que les cel·les <strong>D6</strong> i <strong>D8</strong> siguin nombres inferiors a 100.</em> Posicionar aquest quadre de text com es veu en el gràfic de la presentació de l&#039;activitat<br/>
+
+<strong>11</strong>. Escriure a la cel·la <strong>H6</strong>: <strong>=B6</strong><br/>
+
+<strong>12</strong>. Escriure a la cel·la <strong>H8</strong>: <strong>=B8</strong><br/>
+
+<strong>13</strong>. Escriure a la cel·la <strong>G8</strong>: <strong>=H6/H8</strong><br/>
+
+<strong>14</strong>. Escriure a la cel·la <strong>G6</strong>: <strong>=1-G8</strong><br/>
+
+<div class="noteclassic">L&#039;explicació d&#039;aquests dos últims passos és la mateixa que la que hi ha en les notes de <a href="practica_3-3.html" class="wikilink1" title="cursos:tic:d228:modul_3:practica_3">pràctica 3 del mòdul 3</a>
+</div><br/>
+
+<strong>15</strong>.Formatar l&#039;amplada de les columnes amb les següents dades:
+</p>
+<ul>
+<li class="level1"><div class="li">Columna <strong>A</strong>: 2,16cm</div>
+</li>
+<li class="level1"><div class="li">Columna <strong>B</strong>: 1cm</div>
+</li>
+<li class="level1"><div class="li">Columna <strong>C</strong>: 4,30cm</div>
+</li>
+<li class="level1"><div class="li">Columnes <strong>D</strong>, <strong>E</strong>, <strong>F</strong> i <strong>G</strong>: 1cm</div>
+</li>
+<li class="level1"><div class="li">De la columna <strong>H</strong> fins la columna <strong>R</strong>: 0,50cm</div>
+</li>
+<li class="level1"><div class="li">Columna <strong>T</strong>: 1cm</div>
+</li>
+<li class="level1"><div class="li">De la columna <strong>U</strong> fins la columna <strong>DP</strong>: 0,5cm</div>
+</li>
+</ul>
+
+<p>
+<strong>16</strong>. Escriure a la cel·la <strong>I8</strong>: <strong>=SI($B$8&gt;=1;1;””)</strong><br/>
+
+<strong>17</strong>. Copiar la cel·la <strong>I8</strong> a les cel·les del rang <strong>I8:R8</strong> tenint en compte que després caldrà modificar el valor que hi ha després de l&#039;igual augment-lo en una unitat fins arribar a <strong>10</strong>. Exemple: cel·la I8: =SI($B$8&gt;=<strong>1</strong>;1;””), cel·la J8: =SI($B$8&gt;=<strong>2</strong>;1;””) …
+<div class="noteclassic">
+L&#039;activitat està pensada perquè valor de la cel·la <strong>B8</strong> sigui <strong>10</strong> com a màxim. Evidentment aquest nombre es pot canviar.
+
+</div>
+<strong>18</strong>. Escriure a la cel·la <strong>U6</strong>: <strong>=D6</strong><br/>
+
+<strong>19</strong>. Escriure a la cel·la <strong>U8</strong>:<strong>=D8</strong><br/>
+
+<strong>20</strong>. Escriure a la cel·la <strong>T8</strong>: <strong>=U6/U8</strong><br/>
+
+<strong>21</strong>. Escriure a la cel·la <strong>T6</strong>: <strong>=1-T8</strong><br/>
+
+<strong>22</strong>. Escriure el número <strong>1</strong> a la cel·la <strong>V6</strong><br/>
+
+<strong>23</strong>. Extendre la cel·la <strong>V6</strong> fins la cel·la <strong>DP6</strong> amb la qual cosa s&#039;obté una llista de números fins el <strong>99</strong><br/>
+
+<strong>24</strong>. Escriure a la cel·la <strong>V8</strong>: <strong>=SI($D$8&gt;=V6;1;&quot;&quot;)</strong><br/>
+
+<strong>25</strong>. Extendre la cel·la <strong>V8</strong> fins la cel·la <strong>DP8</strong><br/>
+
+<br/>
+
+<strong>26</strong>.Fer un diagrama de sectors amb les dades que hi ha a les cel·les del rang  <strong>G6</strong>:<strong>G8</strong>.
+</p>
+<ul>
+<li class="level1"><div class="li">En mostrar l&#039;assistent el primer pas per fer el diagrama, fer clic en <strong>Diagrames de sectors</strong> i clic en <strong>Finalitza</strong>. Després fer el següent:</div>
+<ul>
+<li class="level2"><div class="li">Apropar el cursor del ratolí a la llegenda del diagrama fins que es mostri la paraula <strong>&quot;llegenda&quot;</strong>. En fer-ho, fer clic a la llegenda per eleminar-la amb la tecla <strong>Supr</strong></div>
+</li>
+<li class="level2"><div class="li">Per canviar els colors dels sectors. fer el següent:</div>
+</li>
+<li class="level2"><div class="li">Fer doble clic al diagrama i després observar que en passar el punter del ratolí per sobre dels sectors es mostra una finestreta en la qual hi ha escrit &quot;Punt de dades …&quot;</div>
+</li>
+<li class="level2"><div class="li">En veure aquesta finestreta, fer clic al sector del diagrama i del menú, anar a Format | Formata la selecció | clic en la solapa Àrea i triar el color blanc</div>
+</li>
+<li class="level2"><div class="li">Finalment fer cli en d&#039;acord</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li">Fer el mateix procediment perquè el segon sector sigui de color bau 7.</div>
+</li>
+</ul>
+
+<p>
+ *Fer clic en qualsevol cel·la, tornar a fer clic al diagrama i clic al botó dret del ratolí per mostrar el menú contextual.
+</p>
+<ul>
+<li class="level1"><div class="li">D&#039;aquest menú contextual, fer clic en <strong>Posició i mida …</strong></div>
+</li>
+<li class="level2"><div class="li">Fer clic a la solapa <strong>Posició i mida</strong> i escriure les dades següents:</div>
+<ul>
+<li class="level3"><div class="li">Amplada del diagrama: <strong>4,82cm</strong></div>
+</li>
+<li class="level3"><div class="li">Alçada del diagrama: <strong>4,00cm</strong></div>
+</li>
+<li class="level3"><div class="li">Posició X del diagrama: <strong>0,10cm</strong></div>
+</li>
+<li class="level3"><div class="li">Posició Y del diagrama: <strong>4,62cm</strong></div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<br/>
+
+<strong>27</strong>. Fer un diagrama de sectors amb les dades que hi ha a les cel·les <strong>I8</strong> i <strong>R8</strong>.
+</p>
+<ul>
+<li class="level1"><div class="li">En mostrar l&#039;assistent el primer pas per fer el diagrama, fer clic en <strong>Diagrames de sectors</strong> i clic en <strong>Finalitza</strong>. Després fer el següent:</div>
+<ul>
+<li class="level2"><div class="li">Apropar el cursor del ratolí a la llegenda del diagrama fins que es mostri la paraula <strong>&quot;llegenda&quot;</strong>. En fer-ho, fer clic a la llegenda per eleminar-la amb la tecla <strong>Supr</strong></div>
+</li>
+<li class="level2"><div class="li">Apropar el cursor del ratolí a la línea del marc del diagrama fins que es mostri una finestreta amb el text: <strong>&quot;Àrea del diagrama&quot;</strong></div>
+</li>
+<li class="level2"><div class="li">En mostrar aquest text, fer clic amb el botó esquerre del ratolí</div>
+</li>
+<li class="level2"><div class="li">Del menú, anar a <strong>Format</strong> | <strong>Formata la selecció</strong> | i clic en la solapa <strong>Transparència</strong> per seleccionar l&#039;opció de transparència i escriure-hi <strong>100</strong> a la casella corresponent. D&#039;aquesta manera es fa transparent l&#039;àrea del diagrama.</div>
+</li>
+<li class="level2"><div class="li">Finalment fer clic en d&#039;acord. </div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li">Ara també convé fer transparent els <strong>punts de dades</strong> (els sectors). Es pot fer de la següent manera:</div>
+<ul>
+<li class="level2"><div class="li">Apropar el cursor del ratolí a qualsevol línea del diagrama fins que es mostri una finestreta amb el text: <strong>&quot;Punt de dades …&quot;</strong></div>
+</li>
+<li class="level2"><div class="li">En mostrar aquest text, fer clic amb el botó esquerra del ratolí</div>
+</li>
+<li class="level2"><div class="li">Del menú, anar a <strong>Format</strong> | <strong>Formata la selecció</strong> | i clic en la solapa <strong>Transparència</strong> per seleccionar l&#039;opció de transparència i escriure-hi <strong>100</strong> a la casella corresponent. D&#039;aquesta manera es fan transparents els sectors del diagrama.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li">Tenint fetes les transparències, fer el següent: </div>
+<ul>
+<li class="level2"><div class="li">Fer clic en qualsevol cel·la, tornar a fer clic al diagrama i clic al botó dret del ratolí per mostrar el menú contextual.</div>
+</li>
+<li class="level2"><div class="li">D&#039;aquest menú contextual, fer clic en <strong>Posició i mida …</strong></div>
+</li>
+<li class="level2"><div class="li">Fer clic a la solapa <strong>Posició i mida</strong> i escriure les dades següents:</div>
+<ul>
+<li class="level3"><div class="li">Amplada del diagrama: <strong>4,82cm</strong></div>
+</li>
+<li class="level3"><div class="li">Alçada del diagrama: <strong>4,00cm</strong></div>
+</li>
+<li class="level3"><div class="li">Posició X del diagrama: <strong>0,10cm</strong></div>
+</li>
+<li class="level3"><div class="li">Posició Y del diagrama: <strong>4,62cm</strong></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<div class="noteclassic"> Fent coincidir l&#039;amplada, l&#039;alçada i les posicions X i Y del dos diagrames (<strong>G6:G8 i I8:R8</strong>.), sembla un sol diagrama representatiu d&#039;una fracció.
+</div>
+</p>
+
+<p>
+<strong>28</strong>. Fer el mateix tipus de diagrama explicat en el pas <strong>26</strong> per a les cel·les <strong>T6</strong>:<strong>T8</strong><br/>
+
+<strong>29</strong>. Fer el mateix tipus de diagrama explicat en el pass <strong>27</strong> per a les cel·les <strong>V8</strong>:<strong>DP8</strong>.<br/>
+
+<strong>30</strong>. Les posicions <strong>X</strong> i <strong>Y</strong> d&#039;aquests dos últims diagrames podrien ser <strong>5,51cm</strong> i <strong>4,62cm</strong> respectivament.<br/>
+
+<strong>31</strong>. Protegir les cel·les que convingui.<br/>
+
+<strong>32</strong>. Protegir les posicions i les mides del diagrames.<br/>
+
+<strong>33</strong>. Fer no visibles les cel·les que convingui.<br/>
+
+<strong>34</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
+
+<strong>35</strong>.	Desar el fitxer <strong>M3</strong>.<br/>
+
+
+</p>
+
+</div>
+
+    <!-- ......... wikipage stop  ......... -->
+
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+
+<br /><br />
+  <a href="#inici" title="Inici pàgina"><img src="gif/up.gif" alt="Inici"/></a>
+ <div class="footerinc">
+  <hr />
+  <table style="width: 100%;">
+  <tr style="vertical-align: middle;">
+    <td  style="width: 18%; ">
+      <div style="float: left;">
+      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+      </div>
+    </td>
+    <td style="width: 32%;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca" target="_blank" ><img title="Creative Commons" alt="Creative Commons License" style="border-width:0" src="png/cc.png" /></a>
+    </td>
+    <td style="width: 32%;">
+
+      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>
+
+    </td>
+	<td style="width: 18%;">
+      <div style="float: right;">
+      <a target="_blank"href="http://odissea.xtec.cat/"  target="_blank" title="Entorn virtual de formació"><img src="png/odissea2.png" width="98" height="30" alt="Entorn virtual de formació" /></a>
+      </div>
+    </td>
+  </tr>
+  </table>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+-->
+</div>
+
+</div>
+
+</body>
+
+<!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+</html>
