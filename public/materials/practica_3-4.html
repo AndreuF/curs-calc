@@ -186,7 +186,7 @@ L&#039;<strong>1</strong> és el nombre de caràcters que cal extreure partint d
 
 <strong>17</strong>. Escriure al rang de les cel·les <strong>K9:k109</strong> els números amb lletra corresponents al rang <strong>J10:J109</strong><br/>
 
-<strong>18</strong>. Escriure a la cel·la <strong>H7</strong>: <strong>=SI(H5=””;””;CONSULTA(H5;H9:H18;I9:I18))</strong><br/>
+<strong>18</strong>. Escriure a la cel·la <strong>H7</strong>: <strong>=SI(H5="";"";CONSULTA(H5;H9:H18;I9:I18))</strong><br/>
 
 <div class="noteclassic">Amb aquesta fórmula si <strong>H5</strong> mostra algun valor, s’obté la centena de miler fent-se la corresponent consulta; si no, no mostra cap valor.
 </div><br/>
@@ -198,7 +198,7 @@ L&#039;<strong>1</strong> és el nombre de caràcters que cal extreure partint d
 
 <strong>=SI(I6=&quot;&quot;;&quot;&quot;;SI(I6=1;&quot;un mil&quot;;SI(I6=0;&quot; mil&quot;;CONSULTA(I6;J9:J109;K9:K109)&amp;&quot; mil&quot;)))</strong><br/>
 
-<div class="noteclassic">Amb aquesta fórmula si la cel·la <strong>I6</strong> mostra el valor de <strong>1</strong>, retorna la paraula <strong>“mil”</strong>; si és un valor diferent de <strong>1</strong>, es fa la corresponent consulta concatenant la paraula mil. Observar l’espai que hi ha abans de la lletra <strong>m</strong> de <strong>” mil”</strong>.
+<div class="noteclassic">Amb aquesta fórmula si la cel·la <strong>I6</strong> mostra el valor de <strong>1</strong>, retorna la paraula <strong>"mil"</strong>; si és un valor diferent de <strong>1</strong>, es fa la corresponent consulta concatenant la paraula mil. Observar l’espai que hi ha abans de la lletra <strong>m</strong> de <strong>" mil"</strong>.
 </div><br/>
 
 <strong>20</strong>. Escriure a la cel·la <strong>k7: =SI(K5=&quot;&quot;;&quot;&quot;;SI(K5=0;&quot;&quot;;CONSULTA(K5;H9:H18;I9:I18)))</strong><br/>
@@ -215,10 +215,10 @@ número que hi ha a la cel·la <strong>B5</strong>
 <strong>=SI(I(L5=0;M5=0);&quot;&quot;;SI(VALOR(H5&amp;I5&amp;J5&amp;K5&amp;L5&amp;M5)=0;&quot;zero&quot;;CONSULTA(L6;J10:
 J109;K10:K109)))</strong><br/>
 
-<div class="noteclassic">Amb <strong>SI(I(L5=0;M5=0)</strong> s&#039;aconsegueix que es retorni l&#039;expressió de <strong>“X cents”</strong> sempre que la <strong>X</strong> sigui major que <strong>1</strong> o l&#039;expressió <strong>“cent”</strong> en cas que la <strong>X</strong> sigui <strong>1</strong>.
+<div class="noteclassic">Amb <strong>SI(I(L5=0;M5=0)</strong> s&#039;aconsegueix que es retorni l&#039;expressió de <strong>"X cents"</strong> sempre que la <strong>X</strong> sigui major que <strong>1</strong> o l&#039;expressió <strong>"cent"</strong> en cas que la <strong>X</strong> sigui <strong>1</strong>.
 </div><br/>
 
-<strong>24</strong>. Escriure a la cel·la <strong>G5</strong>: <strong>=RETALLA(H7&amp;” ”&amp;I7&amp;” ”&amp;K7&amp;” ”&amp;L7)</strong><br/>
+<strong>24</strong>. Escriure a la cel·la <strong>G5</strong>: <strong>=RETALLA(H7&amp;" "&amp;I7&amp;" "&amp;K7&amp;" "&amp;L7)</strong><br/>
 
 <div class="noteclassic">La funció <strong>RETALLA</strong> elimina del text els espais extres. D’aquesta manera s’obté en lletra el número que apareix a la cel·la <strong>B5</strong>.
 </div><br/>
@@ -235,7 +235,7 @@ El passos que venen a continuació, del <strong>25</strong> al <strong>29</stron
 
 <strong>29</strong>. Escriure a la cel·la <strong>D5</strong>: <strong>=SI(C5=&quot;&quot;;&quot;&quot;;SI(O(C5=G5;C5=G8;C5=G9);&quot;bé&quot;;&quot;no&quot;))</strong><br/>
 
-<div class="noteclassic">Amb aquesta fórmula s’avalua l’escrit a la cel·la <strong>C5</strong> si aquesta mostra algun valor. Si el que s’ha escrit a la cel·la <strong>C5</strong> és igual a qualsevol de les cel·les <strong>G5</strong>, <strong>G8</strong> o <strong>G9</strong>, llavors apareix l’avaluador “bé”; si no, apareix el “no”.
+<div class="noteclassic">Amb aquesta fórmula s’avalua l’escrit a la cel·la <strong>C5</strong> si aquesta mostra algun valor. Si el que s’ha escrit a la cel·la <strong>C5</strong> és igual a qualsevol de les cel·les <strong>G5</strong>, <strong>G8</strong> o <strong>G9</strong>, llavors apareix l’avaluador "bé"; si no, apareix el "no".
 </div><br/>
 
 <strong>30</strong>. Fer una macro amb les següent funcions:<br/>
