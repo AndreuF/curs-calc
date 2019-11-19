@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
 
 <!-- Generat el 28/Mar/2012  14:47:27  amb HTTrack -->
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>
@@ -10,8 +10,9 @@
   </title>
 
   <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
-<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
-<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" /><link rel="stylesheet" media="all" type="text/css" href="css/mystyle.css" />
+  <link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+  <link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/mystyle.css" />
 
   <link rel="shortcut icon" href="ico/favicon.ico" />
 
@@ -28,206 +29,240 @@
 
 
 
-<div class="dokuwiki">
-
-
-<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> Pràctica 1 - Exercici 2</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-2.html"><</a></li>  <li><a href="practica_1.html">Exercici 1</a></li>  <li id="active"><a id="current" href="#">Exercici 2</a></li>  <li><a href="practica_3.html">Exercici 3</a></li>  <li><a href="practica_4.html">Exercici 4</a></li>  <li><a href="practica_5.html">Exercici 5</a></li>  <li><a href="practica_6.html">Exercici 6</a></li></ul></div></div>
-
-
-  <div class="page">
-
-    <!-- ......... wikipage start ......... -->
-
-<h1><a name="aplicacions_didactiques_del_full_de_calcul" id="aplicacions_didactiques_del_full_de_calcul">Aplicacions didàctiques del full de càlcul</a></h1>
-<div class="level1">
-
-<p>
-En aquesta pràctica es treballa amb la funció lògica <strong>=SI()</strong>. És convenient que aquesta fórmula estigui ben estudiada degut a la seva importància i perquè sovint es farà servir durant aquest curs telemàtic. Aquesta funcio indica una verificació lògica que s&#039;ha de realitzar.
-</p>
-
-</div>
-
-<h2><a name="sumar_dos_numeros_d_un_digit_en_cada_numero_amb_avaluacio" id="sumar_dos_numeros_d_un_digit_en_cada_numero_amb_avaluacio">Sumar dos números d&#039;un dígit en cada número amb avaluació</a></h2>
-<div class="level2">
-
-<p>
-
-<strong>Presentació gràfica de l&#039;activitat</strong><br/>
-
-<img src="png/suma1_amb_avaluacio.png" class="media" alt="" />
-<br/>
-
-</p>
-
-<p>
-
-<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#suma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SUMA()</a><br/>
-</div>
-</li>
-</ul>
-
-<p>
-<br/>
-
-<strong>Objectiu de l&#039;activitat</strong><br/>
-
-Havent fet la pràctica 1, ara es tracta de fer una pràctica semblant però amb avaluació fent així del calc una eina interactiva per practicar diferents tipus d&#039;operacions que s&#039;aniran veient durant aquest curs telemàtic.<br/>
-
-<br/>
-
-<strong>Desenvolupament de l&#039;activitat</strong><br/>
-
-<strong>1.</strong> Obrir e fitxer <strong>M1</strong> i canviar el nom de <strong>Full2</strong> pel de <strong>M1P2 suma amb avaluació</strong><br/>
-
-<strong>2.</strong> Escriure a la cel·la <strong>C4</strong> un número d&#039;un dígit (qualsevol número del 0 al 9).<br/>
-
-<strong>3.</strong> Escriure a la cel·la <strong>D4</strong> el signe + .<br/>
-
-<strong>4.</strong> Escriure a la cel·la <strong>E4</strong> un número d&#039;un dígit.<br/>
-
-<strong>5.</strong> Escriure a la cel·la <strong>F4</strong> el signe =.<br/>
-
-<strong>6.</strong> Escriure a la cel·la <strong>G4</strong> el resultat de la suma.<br/>
-
-<strong>7.</strong> Formatar la cel·la<strong>G4</strong> amb els següents atributs:
-</p>
-<ul>
-<li class="level1"><div class="li">Color de fons de la cel·la: gris 20%</div>
-</li>
-<li class="level1"><div class="li">Mida de la lletra: 14</div>
-</li>
-<li class="level1"><div class="li">Tipus de lletra: arial</div>
-</li>
-</ul>
-
-<p>
-<strong>8.</strong> Escriure a la cel·la <strong>I4</strong> el següent: <strong>=SI(G4=SUMA(C4;E4);"bé";"no")</strong><br/>
-
-<div class="noteclassic"> En cas que no s&#039;escrigui cap número a la cel·la <strong>G4</strong>, la cel·la avaluadora <strong>I4</strong> mostra "no". Per evitar-ho, llegir l&#039;exemple 4 dels exemples amb la funció =SI()
-</div>
-<strong>9.</strong> Formatar la cel·la <strong>I4</strong> amb els següents atributs:
-</p>
-<ul>
-<li class="level1"><div class="li">Color de fons de la cel·la: taronja 4</div>
-</li>
-<li class="level1"><div class="li">Mida de la lletra: 14</div>
-</li>
-<li class="level1"><div class="li">Tipus de lletra: arial</div>
-</li>
-</ul>
-
-<p>
-<strong>10.</strong> Fer un alineament centrat de tex horitzontal i vertical de les cel·les del rang <strong>C4:I4</strong><br/>
-
-<strong>11.</strong> La cel·la a protegir serà la <strong>I4</strong><br/>
-
-<strong>12.</strong> Comprovar que la pràctica funcioni correctament.<br/>
-
-<strong>13.</strong> Desar el fitxer <strong>M1</strong>.<br/>
-
-<div class="noteclassic">La fórmula <strong>=SI(G4=SUMA(C4;E4);"bé";"no")</strong> expressa el següent: Si el resultat de le suma de les cel·les <strong>C4</strong> i <strong>E4</strong> és igual al valor de la cel·la <strong>G4</strong>, llavors es mostra el &quot;<strong>bé</strong>&quot; avaluador; si no, mostra el &quot;<strong>no</strong>&quot; avaluador.
-</div><br/>
-
-<img src="png/detall_funcio_si_color_2.png" class="media" alt="" /><br/>
-
-<br/>
-
-<div class="noteclassic"><img src="png/detall_funcio_si_sense.png" class="media" alt="" /><br/>
-
-En la funció <strong>SI</strong>, el que hi ha entre el primer parèntesi i el primer punt i coma (;) és la condició que es proposa. En cas que aquesta condició es compleixi, llavors es mostra (torna) el que s&#039;escriu entre els dos punts i coma; si no, es mostra el que s&#039;escriu després del segon punt i coma.
-</div>
-<div class="noteclassic">Els punts i coma que hi ha a les funcions serveixen per separar els arguments. Aquests arguments són valors que es fan servir per realitzar les operacions que hi ha a la fórmula. Els parèntesi serveixen per tancar els arguments.
-Quan una funció es fa servir com argument d&#039;una altra funció, llavors es presenta una funció anidada. Observar les anidacions en els exemples 2 i 4 que hi ha a continuació.
-</div>
-<br/>
-
-<strong>Exemples amb la funció =SI()</strong><br/>
-
-<br/>
-
-<strong>Exemple 1</strong> d&#039;una fórmula escrita a la cel·la <strong>H4</strong>: <strong>=SI(G4=2;"aquest és el número dos&quot;;&quot;aquest no és el número dos")</strong><br/>
-
-Aquesta fórmula significa el següent:<br/>
-
-Si la cel·la <strong>G4</strong> és igual a <strong>2</strong>, llavors (<strong>;</strong>) mostra el text "aquest és el número dos", i si la condició no es verdadera (suposem que el valor de G4 sigui igual a 4) llavors(<strong>;</strong>) mostra el text de "aquest no és el número dos".<br/>
-
-<br/>
-
-<strong>Exemple 2</strong> d&#039;una la fórmula escrita a la cel·la <strong>H5</strong>: <strong>=SI(G5=SUMA(C5;E5);"bé";"no")</strong><br/>
-
-Aquesta fórmula significa el següent:<br/>
-
-Si la cel·la <strong>G5</strong> és igual a la suma de <strong>C5</strong> i <strong>E5</strong>, llavors (<strong>;</strong>) mostra el text de <strong>"bé"</strong>, i si la condició no es verdadera (que el valor de la suma de <strong>C5</strong> i <strong>E5</strong> no sigui igual al valor que s&#039;escriu a la <strong>G5</strong>) llavors (<strong>;</strong>) mostra el text de <strong>"no"</strong>.<br/>
-
-<br/>
-
-<strong>Exemple 3</strong> d&#039;una fórmula escrita a la cel·la <strong>H6</strong>: <strong>=SI(G6="";"";"en aquesta cel·la hi ha quelcom escrit")</strong><br/>
-
-Aquesta fórmula significa el següent:<br/>
-
-Si la cel·la <strong>G6</strong> és un conjunt buit (no hi ha res escrit), llavors (<strong>;</strong>) no mostris res, i si la condició no es verdadera (que la cel·la G6 té algun tipus de dades) llavors(<strong>;</strong>) mostra el text de "en aquesta cel·la hi ha quelcom escrit".<br/>
-
-<br/>
-
-</p>
-
-<p>
-<strong>Exemple 4</strong> d&#039;una fórmula escrita a la cel·la <strong>I4</strong>: <strong>=SI(G4="";"";SI(G4=SUMA(C4;E4);"bé";"no")</strong><br/>
-
-Aquesta fórmula significa el següent:<br/>
-
-<img src="png/anidar_1.png" class="media" alt="" /><br/>
-
-<br/>
-
-<div class="noteclassic">La fórmula de l&#039;exemple quatre es podria escriure a la cel·la <strong>I4</strong> d&#039;aquesta pràctica. D&#039;aquesta manera la cel·la <strong>I4</strong> no mostraria cap valor en cas que la cel·la <strong>G4</strong> no mostrés cap valor.
-</div>
-
-</p>
-
-</div>
-
-    <!-- ......... wikipage stop  ......... -->
-
-  </div>
-
-  <div class="clearer">&nbsp;</div>
-
-
-<br /><br />
-
- <div class="footerinc">
-  <hr />
-  <table style="width: 100%;">
-  <tr style="vertical-align: middle;">
-    <td  style="width: 18%; ">
-      <div style="float: left;">
-      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+  <div class="dokuwiki">
+
+
+    <div class="headermain">
+      <!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>-->
+      <div class="titol">UF4. Fulls de càlcul </div>
+      <div class="subtitol"> Pràctica 1 - Exercici 2</div>
+    </div>
+    <div class="navega">
+      <div id="navcontainer">
+        <ul id="navlist">
+          <li><a href="index.html" title="Inici">&lt;&lt;</a></li>
+          <li><a href="index-2.html">
+              <</a> </li> <li><a href="practica_1.html">Exercici 1</a></li>
+          <li id="active"><a id="current" href="#">Exercici 2</a></li>
+          <li><a href="practica_3.html">Exercici 3</a></li>
+          <li><a href="practica_4.html">Exercici 4</a></li>
+          <li><a href="practica_5.html">Exercici 5</a></li>
+          <!--<li><a href="practica_6.html">Exercici 6</a></li>-->
+        </ul>
       </div>
-    </td>
-    <td style="width: 32%;">
+    </div>
 
-    </td>
-    <td style="width: 32%;">
 
-      <!--      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>-->
+    <div class="page">
 
-    </td>
-	<td style="width: 18%;">
-      <div style="float: right;">
+      <!-- ......... wikipage start ......... -->
+
+      <h1><a name="aplicacions_didactiques_del_full_de_calcul" id="aplicacions_didactiques_del_full_de_calcul">Aplicacions didàctiques del full de càlcul</a></h1>
+      <div class="level1">
+
+        <p>
+          En aquesta pràctica es treballa amb la funció lògica <strong>=SI()</strong>. És convenient que aquesta fórmula estigui ben estudiada degut a la seva importància i perquè sovint es farà servir durant aquest curs telemàtic. Aquesta funcio
+          indica una verificació lògica que s&#039;ha de realitzar.
+        </p>
 
       </div>
-    </td>
-  </tr>
-  </table>
-<!--
+
+      <h2><a name="sumar_dos_numeros_d_un_digit_en_cada_numero_amb_avaluacio" id="sumar_dos_numeros_d_un_digit_en_cada_numero_amb_avaluacio">Sumar dos números d&#039;un dígit en cada número amb avaluació</a></h2>
+      <div class="level2">
+
+        <p>
+
+          <strong>Presentació gràfica de l&#039;activitat</strong><br />
+
+          <img src="png/suma1_amb_avaluacio.png" class="media" alt="" />
+          <br />
+
+        </p>
+
+        <p>
+
+          <strong>Funcions que es fan servir en aquesta activitat</strong><br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#suma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SUMA()</a><br />
+            </div>
+          </li>
+        </ul>
+
+        <p>
+          <br />
+
+          <strong>Objectiu de l&#039;activitat</strong><br />
+
+          Havent fet la pràctica 1, ara es tracta de fer una pràctica semblant però amb avaluació fent així del calc una eina interactiva per practicar diferents tipus d&#039;operacions que s&#039;aniran veient durant aquest curs telemàtic.<br />
+
+          <br />
+
+          <strong>Desenvolupament de l&#039;activitat</strong><br />
+
+          <strong>1.</strong> Obrir e fitxer <strong>M1</strong> i canviar el nom de <strong>Full2</strong> pel de <strong>M1P2 suma amb avaluació</strong><br />
+
+          <strong>2.</strong> Escriure a la cel·la <strong>C4</strong> un número d&#039;un dígit (qualsevol número del 0 al 9).<br />
+
+          <strong>3.</strong> Escriure a la cel·la <strong>D4</strong> el signe + .<br />
+
+          <strong>4.</strong> Escriure a la cel·la <strong>E4</strong> un número d&#039;un dígit.<br />
+
+          <strong>5.</strong> Escriure a la cel·la <strong>F4</strong> el signe =.<br />
+
+          <strong>6.</strong> Escriure a la cel·la <strong>G4</strong> el resultat de la suma.<br />
+
+          <strong>7.</strong> Formatar la cel·la<strong>G4</strong> amb els següents atributs:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">Color de fons de la cel·la: gris 20%</div>
+          </li>
+          <li class="level1">
+            <div class="li">Mida de la lletra: 14</div>
+          </li>
+          <li class="level1">
+            <div class="li">Tipus de lletra: arial</div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>8.</strong> Escriure a la cel·la <strong>I4</strong> el següent: <strong>=SI(G4=SUMA(C4;E4);"bé";"no")</strong><br />
+
+          <div class="noteclassic"> En cas que no s&#039;escrigui cap número a la cel·la <strong>G4</strong>, la cel·la avaluadora <strong>I4</strong> mostra "no". Per evitar-ho, llegir l&#039;exemple 4 dels exemples amb la funció =SI()
+          </div>
+          <strong>9.</strong> Formatar la cel·la <strong>I4</strong> amb els següents atributs:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">Color de fons de la cel·la: taronja 4</div>
+          </li>
+          <li class="level1">
+            <div class="li">Mida de la lletra: 14</div>
+          </li>
+          <li class="level1">
+            <div class="li">Tipus de lletra: arial</div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>10.</strong> Fer un alineament centrat de tex horitzontal i vertical de les cel·les del rang <strong>C4:I4</strong><br />
+
+          <strong>11.</strong> La cel·la a protegir serà la <strong>I4</strong><br />
+
+          <strong>12.</strong> Comprovar que la pràctica funcioni correctament.<br />
+
+          <strong>13.</strong> Desar el fitxer <strong>M1</strong>.<br />
+
+          <div class="noteclassic">La fórmula <strong>=SI(G4=SUMA(C4;E4);"bé";"no")</strong> expressa el següent: Si el resultat de le suma de les cel·les <strong>C4</strong> i <strong>E4</strong> és igual al valor de la cel·la <strong>G4</strong>,
+            llavors es mostra el &quot;<strong>bé</strong>&quot; avaluador; si no, mostra el &quot;<strong>no</strong>&quot; avaluador.
+          </div><br />
+
+          <img src="png/detall_funcio_si_color_2.png" class="media" alt="" /><br />
+
+          <br />
+
+          <div class="noteclassic"><img src="png/detall_funcio_si_sense.png" class="media" alt="" /><br />
+
+            En la funció <strong>SI</strong>, el que hi ha entre el primer parèntesi i el primer punt i coma (;) és la condició que es proposa. En cas que aquesta condició es compleixi, llavors es mostra (torna) el que s&#039;escriu entre els dos
+            punts i coma; si no, es mostra el que s&#039;escriu després del segon punt i coma.
+          </div>
+          <div class="noteclassic">Els punts i coma que hi ha a les funcions serveixen per separar els arguments. Aquests arguments són valors que es fan servir per realitzar les operacions que hi ha a la fórmula. Els parèntesi serveixen per tancar
+            els arguments.
+            Quan una funció es fa servir com argument d&#039;una altra funció, llavors es presenta una funció anidada. Observar les anidacions en els exemples 2 i 4 que hi ha a continuació.
+          </div>
+          <br />
+
+          <strong>Exemples amb la funció =SI()</strong><br />
+
+          <br />
+
+          <strong>Exemple 1</strong> d&#039;una fórmula escrita a la cel·la <strong>H4</strong>: <strong>=SI(G4=2;"aquest és el número dos&quot;;&quot;aquest no és el número dos")</strong><br />
+
+          Aquesta fórmula significa el següent:<br />
+
+          Si la cel·la <strong>G4</strong> és igual a <strong>2</strong>, llavors (<strong>;</strong>) mostra el text "aquest és el número dos", i si la condició no es verdadera (suposem que el valor de G4 sigui igual a 4) llavors(<strong>;</strong>)
+          mostra el text de "aquest no és el número dos".<br />
+
+          <br />
+
+          <strong>Exemple 2</strong> d&#039;una la fórmula escrita a la cel·la <strong>H5</strong>: <strong>=SI(G5=SUMA(C5;E5);"bé";"no")</strong><br />
+
+          Aquesta fórmula significa el següent:<br />
+
+          Si la cel·la <strong>G5</strong> és igual a la suma de <strong>C5</strong> i <strong>E5</strong>, llavors (<strong>;</strong>) mostra el text de <strong>"bé"</strong>, i si la condició no es verdadera (que el valor de la suma de
+          <strong>C5</strong> i <strong>E5</strong> no sigui igual al valor que s&#039;escriu a la <strong>G5</strong>) llavors (<strong>;</strong>) mostra el text de <strong>"no"</strong>.<br />
+
+          <br />
+
+          <strong>Exemple 3</strong> d&#039;una fórmula escrita a la cel·la <strong>H6</strong>: <strong>=SI(G6="";"";"en aquesta cel·la hi ha quelcom escrit")</strong><br />
+
+          Aquesta fórmula significa el següent:<br />
+
+          Si la cel·la <strong>G6</strong> és un conjunt buit (no hi ha res escrit), llavors (<strong>;</strong>) no mostris res, i si la condició no es verdadera (que la cel·la G6 té algun tipus de dades) llavors(<strong>;</strong>) mostra el text
+          de "en aquesta cel·la hi ha quelcom escrit".<br />
+
+          <br />
+
+        </p>
+
+        <p>
+          <strong>Exemple 4</strong> d&#039;una fórmula escrita a la cel·la <strong>I4</strong>: <strong>=SI(G4="";"";SI(G4=SUMA(C4;E4);"bé";"no")</strong><br />
+
+          Aquesta fórmula significa el següent:<br />
+
+          <img src="png/anidar_1.png" class="media" alt="" /><br />
+
+          <br />
+
+          <div class="noteclassic">La fórmula de l&#039;exemple quatre es podria escriure a la cel·la <strong>I4</strong> d&#039;aquesta pràctica. D&#039;aquesta manera la cel·la <strong>I4</strong> no mostraria cap valor en cas que la cel·la
+            <strong>G4</strong> no mostrés cap valor.
+          </div>
+
+        </p>
+
+      </div>
+
+      <!-- ......... wikipage stop  ......... -->
+
+    </div>
+
+    <div class="clearer">&nbsp;</div>
+
+
+    <br /><br />
+
+    <div class="footerinc">
+      <hr />
+      <table style="width: 100%;">
+        <tr style="vertical-align: middle;">
+          <td style="width: 18%; ">
+            <div style="float: left;">
+              <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+            </div>
+          </td>
+          <td style="width: 32%;">
+
+          </td>
+          <td style="width: 32%;">
+
+            <!--      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>-->
+
+          </td>
+          <td style="width: 18%;">
+            <div style="float: right;">
+
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!--
 <rdf:RDF xmlns="http://web.resource.org/cc/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -248,11 +283,12 @@ Aquesta fórmula significa el següent:<br/>
 
 </rdf:RDF>
 -->
-</div>
+    </div>
 
-</div>
+  </div>
 
 </body>
 
 <!-- Generat el 28/Mar/2012  14:47:27  amb HTTrack -->
+
 </html>
