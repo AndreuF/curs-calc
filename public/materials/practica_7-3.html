@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca" dir="ltr">
 
 <!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>
@@ -10,8 +10,9 @@
   </title>
 
   <link rel="stylesheet" media="all" type="text/css" href="css/cssff6e.css?s=all&amp;t=estatic" />
-<link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
-<link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" /><link rel="stylesheet" media="all" type="text/css" href="css/mystyle.css" />
+  <link rel="stylesheet" media="screen" type="text/css" href="css/css6139.css?t=estatic" />
+  <link rel="stylesheet" media="print" type="text/css" href="css/css6f71.css?s=print&amp;t=estatic" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/mystyle.css" />
 
   <link rel="shortcut icon" href="ico/favicon.ico" />
 
@@ -28,429 +29,492 @@
 
 
 
-<div class="dokuwiki">
-
-
-<div class="headermain"><!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>--><div class="titol">UF4. Fulls de càlcul </div><div class="subtitol"> Pràctica 6 - Pr&agrave;c. 7</div></div><div class="navega"><div id="navcontainer"><ul id="navlist"><li><a href="index.html" title="Inici">&lt;&lt;</a></li>  <li><a href="index-7.html"><</a></li>  <li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>  <li><a href="practica_2-6.html">Pr&agrave;c. 2</a></li>  <li><a href="practica_3-6.html">Pr&agrave;c. 3</a></li>  <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>  <li><a href="practica_5-6.html">Pr&agrave;c. 5</a></li>  <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>  <li id="active"><a id="current" href="#">Pr&agrave;c. 7</a></li>  <li><a href="practica_8-3.html">Pr&agrave;c. 8</a></li>  <li><a href="practica_9-2.html">Pr&agrave;c. 9</a></li>  <li><a href="practica_10.html">Pr&agrave;c. 10</a></li></ul></div></div>
-
-
-  <div class="page">
-
-    <!-- ......... wikipage start ......... -->
-
-<h1><a name="joc_del_tres_en_ratlla" id="joc_del_tres_en_ratlla">Joc del tres en ratlla</a></h1>
-<div class="level1">
-
-<p>
-<strong>Presentació gràfica de l&#039;activitat</strong><br/>
-
-<img src="png/joc_tres_en_ratlla.png" class="media" alt="" /><br/>
-
-</p>
-
-<p>
-<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a><br/>
-			</div>
-</li>
-</ul>
-
-<p>
-<br/>
-
-<strong>Objectiu de l&#039;activitat</strong><br/>
-
-Jugar al tres en ratlla mitjançant el full de càlc.<br/>
-
-<br/>
-
-<strong>Desenvolupament de l&#039;activitat</strong><br/>
-
-<strong>1</strong>. Obrir el el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 tres en ratlla</strong><br/>
-
-<strong>2</strong>. Escriure a la cel·la <strong>J4</strong>: <strong>=G4</strong>. La cel·la <strong>G4</strong> representa el nom del primer jugador/a. El nom que s&#039;escrigui a la cel·la <strong>G4</strong> es repetirà a la cel·la <strong>J4</strong>. Es pot escriure la primera lletra del nom o el nom complet<br/>
-
-<strong>3</strong>. Escriure a la cel·la <strong>J5</strong>: <strong>=SI(I(C4=G4;D4=G4;E4=G4);1;&quot;&quot;)</strong>.  Correspon a la línia horitzontal superior.<br/>
-
-<div class="noteclassic">Si cada una de les cel·les del rang <strong>C4:E4</strong> té el mateix valor que la cel·la <strong>G4</strong>, llavors la cel·la <strong>J5</strong> tindrà el valor <strong>1</strong>. Per tant, el valor <strong>1</strong> indica que hi ha tres lletres en línia sent aquest l&#039;objectiu del joc del tres en ratlla.<br/>
-
-Aquest joc ocupa les cel·les del rang <strong>C4:E6</strong> donant <strong>8</strong> possibles línies guanyadores (tres línies horitzontals, tres línies verticals i dues línies obliqües).
-</div>
-<strong>4</strong>. Escriure a la cel·la <strong>J6</strong>: <strong>=SI(I(C5=G4;D5=G4;E5=G4);1;&quot;&quot;)</strong>. Correspon a la línia horitzontal del mig.<br/>
-
-<strong>5</strong>. Escriure a la cel·la <strong>J7</strong>: <strong>=SI(I(C6=G4;D6=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la  línia horitzontal inferior.<br/>
-
-<strong>6</strong>. Escriure a la cel·la <strong>J8</strong>: <strong>=SI(I(C4=G4;C5=G4;C6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical de l&#039;esquerra.<br/>
-
-<strong>7</strong>. Escriure a la cel·la <strong>J9</strong>: <strong>=SI(I(D4=G4;D5=G4;D6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical del mig.<br/>
-
-<strong>8</strong>. Escriure a la cel·la <strong>J10</strong>: <strong>=SI(I(E4=G4;E5=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical de la dreta.<br/>
-
-<strong>9</strong>. Escriure a la cel·la <strong>J11</strong>: <strong>=SI(I(C4=G4;D5=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la línia obliqua d&#039;esquerra a dreta.<br/>
-
-<strong>10</strong>. Escriure a la cel·la <strong>J12</strong>: <strong>=SI(I(E4=G4;D5=G4;C6=G4);1;&quot;&quot;)</strong>. Correspon a la línia obliqua de dreta a esquerra.<br/>
-
-<strong>11</strong>. Escriure a la cel·la <strong>K4</strong>: <strong>=H4</strong><br/>
-
-<div class="noteclassic">Representa el/la segon/a judador/a. El nom que s&#039;escrigui a la cel·la <strong>H4</strong> es repetirà a la cel·la <strong>K4</strong>. Es pot escriure la primera lletra del nom o el nom complet.
-</div><br/>
-
-Ara es torna a fer el mateix per al/la segon/a jugador/a:<br/>
-
-<br/>
-
-<strong>12</strong>. Escriure a la cel·la <strong>K5</strong>: <strong>=SI(I(C4=H4;D4=H4;E4=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>13</strong>. Escriure a la cel·la <strong>K6</strong>: <strong>=SI(I(C5=H4;D5=H4;E5=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>14</strong>. Escriure a la cel·la <strong>K7</strong>: <strong>=SI(I(C6=H4;D6=H4;E6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>15</strong>. Escriure a la cel·la <strong>K8</strong>: <strong>=SI(I(C4=H4;C5=H4;C6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>16</strong>. Escriure a la cel·la <strong>K9</strong>: <strong>=SI(I(D4=H4;D5=H4;D6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>17</strong>. Escriure a la cel·la <strong>K10</strong>: <strong>=SI(I(E4=H4;E5=H4;E6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>18</strong>. Escriure a la cel·la <strong>K11</strong>: <strong>=SI(I(C4=H4;D5=H4;E6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>19</strong>. Escriure a la cel·la<strong>k12</strong>: <strong>=SI(I(E4=H4;D5=H4;C6=H4);1;&quot;&quot;)</strong><br/>
-
-<strong>20</strong>. Assignar els següents atributs a les cel·les del rang <strong>C4:E6</strong>:
-</p>
-<ul>
-<li class="level1"><div class="li">color de la lletra: negre			</div>
-</li>
-<li class="level1"><div class="li">tipus de lletra: Arial			</div>
-</li>
-<li class="level1"><div class="li">mida: 14			</div>
-</li>
-<li class="level1"><div class="li">color de fons: taronja 4			</div>
-</li>
-<li class="level1"><div class="li">centrar horitzontal i verticalment el contingut de les cel·les			</div>
-</li>
-<li class="level1"><div class="li">Fer visibles totes les línies de les vores de les cel·les			</div>
-</li>
-</ul>
-
-<p>
-<strong>21</strong>. Assignar els següents atributs a les cel·les <strong>G4</strong> i <strong>H4</strong>
-</p>
-<ul>
-<li class="level1"><div class="li">color de la lletra: negre			</div>
-</li>
-<li class="level1"><div class="li">tipus de lletra: Arial			</div>
-</li>
-<li class="level1"><div class="li">mida: 14			</div>
-</li>
-<li class="level1"><div class="li">color de fons: gris 20%			</div>
-</li>
-<li class="level1"><div class="li">centrar horitzontal i verticalment el contingut de les cel·les			</div>
-</li>
-<li class="level1"><div class="li">Fer visibles totes les línies de les vores de les cel·les			</div>
-</li>
-</ul>
-
-<p>
-<strong>22</strong>. Escriure a la cel·la <strong>G5</strong>: <strong>=SI(G4:H4=&quot;&quot;;&quot;&quot;;SI(SUMA(J3:J18)=1;&quot;guanya&quot;;&quot;&quot;))</strong><br/>
-
-<div class="noteclassic">Si la suma del rang <strong>J3:J18</strong> és igual a <strong>1</strong>, llavors apareix la paraula <strong>"guanya"</strong>; si no; no apareix cap valor.
-</div><br/>
-
-<strong>23</strong>. Escriure a la cel·la <strong>H5</strong>: <strong>=SI(G4:H4=&quot;&quot;;&quot;&quot;;SI(SUMA(K3:K18)=1;&quot;guanya&quot;;&quot;&quot;))</strong><br/>
-
-<strong>24</strong>. Fer una macro amb les següent funcions:
-</p>
-<ul>
-<li class="level1"><div class="li">Esborrar els valors les cel·les del rang <strong>C4:E6</strong>		</div>
-</li>
-<li class="level5"><div class="li">Assignar a la cel·la <strong>A1</strong> el valor de <strong>0</strong>			</div>
-</li>
-</ul>
-
-<p>
-<strong>25</strong>. Crear un botó (comandament) de Controls de formulari i assignar-li la macro feta anteriorment.<br/>
-
-<strong>26</strong>. Validar la cel·la <strong>A1</strong> per al valor <strong>0</strong>.<br/>
-
-<strong>27</strong>. Protegir les cel·les que convingui.<br/>
-
-<strong>28</strong>. Ocultar les cel·les que convingui.<br/>
-
-<strong>29</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
-
-<strong>30</strong>. Desar el fitxer <strong>M6</strong>.<br/>
-
-</p>
-
-</div>
-
-<h1><a name="joc_de_sumar" id="joc_de_sumar">Joc de sumar</a></h1>
-<div class="level1">
-
-<p>
-<strong>Presentació gràfica de l&#039;activitat</strong><br/>
-
-<img src="png/joc_sumar_numeros.png" class="media" alt="" /><br/>
-
-<br/>
-
-<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#suma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SUMA()</a><br/>
-	</div>
-</li>
-</ul>
-
-<p>
-<br/>
-
-<strong>Objectiu de l&#039;activitat</strong><br/>
-
-Escriure un número en cada una de les cel·les de color taronja perquè sumant horitzontal i verticalment doni els resultats que hi ha a cel·les de color gris.<br/>
-
-<br/>
-
-<strong>Desenvolupament de l&#039;activitat</strong><br/>
-
-<strong>1</strong>. Obrir el el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 joc de sumar</strong><br/>
-
-<strong>2</strong>. Escriure a la cel·la <strong>R8</strong>: <strong>=SI($A$1=0;ALEATENTRE(0;9))</strong><br/>
-
-<strong>3</strong>. Copiar la cel·la <strong>R8</strong> i copiar-la al rang <strong>R8:S9</strong> i al rang <strong>R14:T16</strong><br/>
-
-<strong>4</strong>. Escriure a la cel·la <strong>T8</strong>: <strong>=SUMA(R8:S8)</strong><br/>
-
-<strong>5</strong>. Copiar la cel·la  <strong>T8</strong> i enganxar-la a la cel·la <strong>T9</strong><br/>
-
-<strong>6</strong>. Escriure a la cel·la <strong>R10</strong>: <strong>=SUMA(R8:R9)</strong><br/>
-
-<strong>7</strong>. Copiar la cel·la  <strong>R10</strong>: i enganxar-la a la cel·la <strong>S10</strong><br/>
-
-<strong>8</strong>. Escriure a la cel·la <strong>U14</strong>: <strong>=SUMA(R14:T14)</strong><br/>
-
-<strong>9</strong>. Copiar la cel·la  <strong>U14</strong> i enganxar-la a la cel·les <strong>U15</strong> i <strong>16</strong><br/>
-
-<strong>10</strong>. Escriure a la cel·la <strong>R17</strong>: <strong>=SUMA(R14:R16)</strong><br/>
-
-<strong>11</strong>. Copiar la cel·la R17 i enganxar-la a les cel·les <strong>S17</strong> i <strong>R17</strong><br/>
-
-<strong>12</strong>. Assignar els següents atributs a les cel·les del rangs <strong>B8:C9</strong> i <strong> I8:K10</strong>:
-</p>
-<ul>
-<li class="level1"><div class="li">estil de la línia de les vores de les cel·les: <strong>0,05pt</strong>	</div>
-</li>
-<li class="level3"><div class="li">color de la línia: <strong>negre</strong>	</div>
-</li>
-<li class="level3"><div class="li">color de fons: <strong>taronja 4</strong>	</div>
-</li>
-</ul>
-
-<p>
-<strong>13</strong>. Assignar els següents atributs a les cel·les dels rangs <strong>D8:D9</strong> , <strong>B10:C10</strong>,<strong>L8:L10</strong> i <strong>I11:K11</strong><br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li">color de fons: <strong>gris 10%</strong>	</div>
-</li>
-<li class="level1"><div class="li">tipus de lletra: <strong>Arial</strong>	</div>
-</li>
-<li class="level1"><div class="li">tipografia: <strong>normal</strong>	</div>
-</li>
-<li class="level1"><div class="li">mida: <strong>14</strong>	</div>
-</li>
-</ul>
-
-<p>
-<strong>14</strong>. Escriure a la cel·la <strong>D8</strong>: <strong>=T8</strong><br/>
-
-<strong>15</strong>. Escriure a la cel·la <strong>D9</strong>: <strong>=T9</strong><br/>
-
-<strong>16</strong>. Escriure a la cel·la <strong>B10</strong>: <strong>=R10</strong><br/>
-
-<strong>17</strong>. Escriure a la cel·la <strong>C10</strong>: <strong>=S10</strong><br/>
-
-<strong>18</strong>. Escriure a la cel·la <strong>E8</strong>: <strong>=SI(I(B8=&quot;&quot;;C8=&quot;&quot;);&quot;&quot;;SI(SUMA(B8:C8)=D8;&quot;bé&quot;;&quot;&quot;))</strong><br/>
-
-<div class="noteclassic">Amb aquesta fórmula la cel·la <strong>E8</strong> no mostrarà cap valor si les cel·les <strong>B8</strong> i <strong>C8</strong> no tenen cap valor, en cas contrari es mostrarà el <strong>&quot;bé&quot;</strong> si la suma de la cel·la <strong>B8</strong> més la cel·la <strong>C8</strong> sigui igual al valor de la cel·la <strong>D8</strong>; si no, no es mostra cap valor(<strong>&quot;&quot;</strong>).
-</div>
-<strong>19</strong>. Copiar la cel·la <strong>E8</strong> i enganxar-la a la cel·la <strong>E9</strong>.<br/>
-
-<strong>20</strong>. Escriure a la cel·la <strong>B11</strong>: <strong>=SI(I(B8=&quot;&quot;;B9=&quot;&quot;);&quot;&quot;;SI(SUMA(B8:B9)=B10;&quot;bé&quot;;&quot;&quot;))</strong><br/>
-
-<strong>21</strong>. Copiar la cel·la <strong>B11</strong> i enganxar-la a la cel·la <strong>C11</strong>.<br/>
-
-<strong>22</strong>. Escriure a la cel·la <strong>M8</strong>: <strong>=SI(I(I8=&quot;&quot;;J8=&quot;&quot;;K8=&quot;&quot;);&quot;&quot;;SI(SUMA(I8:K8)=L8;&quot;bé&quot;;&quot;&quot;))</strong><br/>
-
-<strong>23</strong>. Copiar la cel·la <strong>M8</strong> a les cel·les <strong>M9</strong> i <strong>M10</strong><br/>
-
-<strong>24</strong>. Escriure a la cel·la <strong>L8</strong>: <strong>=U14</strong><br/>
-
-<strong>25</strong>. Copiar la cel·la <strong>L8</strong> a les cel·les <strong>L9</strong> i <strong>L10</strong><br/>
-
-<strong>26</strong>. Escriure a la cel·la <strong>I11</strong>: <strong>=R17</strong><br/>
-
-<strong>27</strong>. Copiar la cel·la <strong>I11</strong> a les cel·les <strong>J11</strong> i <strong>K11</strong><br/>
-
-<strong>28</strong>. Escriure a la cel·la <strong>I12</strong>: <strong>=SI(I(I8=&quot;&quot;;I9=&quot;&quot;;I10=&quot;&quot;);&quot;&quot;;SI(SUMA(I8:I10)=I11;&quot;bé&quot;;&quot;&quot;))</strong><br/>
-
-<strong>29</strong>. Copiar la cel·la <strong>I12</strong> a les cel·les <strong>J12</strong> i <strong>K12</strong><br/>
-
-<strong>30</strong>. Fer una macro amb els següents funcions:
-</p>
-<ul>
-<li class="level1"><div class="li">Esborrar els valors de les cel·les dels rangs <strong>B8</strong>:<strong>C9</strong> i <strong>I8:K10</strong>	</div>
-</li>
-<li class="level3"><div class="li">Fer que la cel·la <strong>A1</strong> tingui el valor de <strong>0</strong>	</div>
-</li>
-</ul>
-
-<p>
-<strong>31</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro anteriorment feta.<br/>
-
-<strong>32</strong>. Protegir les cel·les que convingui.<br/>
-
-<strong>33</strong>. Ocultar les cel·les que convingui.<br/>
-
-<strong>34</strong>. Validar la cel·la <strong>A1</strong> al valor <strong>0</strong> amb missatge d&#039;avis.<br/>
-
-<strong>35</strong>. Validar les cel·les dels rangs <strong>B8:C9</strong> i <strong>I8:K10</strong> perquè només es puguin escriure-hi números.<br/>
-
-<strong>36</strong>. Comprovar que l&#039;activitat funcioni correctament.<br/>
-
-<strong>37</strong>. Desar el fitxer <strong>M6</strong>.<br/>
-
-</p>
-
-</div>
-
-<h1><a name="joc_d_endevinar_un_numero" id="joc_d_endevinar_un_numero">Joc d&#039;endevinar un número</a></h1>
-<div class="level1">
-
-<p>
-
-<strong>Presentació gràfica de l&#039;activitat</strong><br/>
-
-<img src="png/m6p7_endevinar_numero.png" class="media" alt="" /><br/>
-
-<br/>
-
-<strong>Funcions que es fan servir en aquesta activitat</strong><br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br/>
-</div>
-</li>
-<li class="level1"><div class="li">Operadors de sumar(+), restar (-), multiplicar (*) i dividir (/)</div>
-</li>
-</ul>
-
-<p>
-<br/>
-
-<strong>Objectiu de l&#039;activitat</strong><br/>
-
-Practicar el càlcul mental.<br/>
-
-<br/>
-
-<strong>Desenvolupament de l&#039;activitat</strong><br/>
-
-<strong>1</strong>. Orir el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 endevinar número</strong><br/>
-
-<strong>2</strong>. Escriure a la cel·la <strong>B2</strong> i a les cel·le del rang <strong>B5:B9</strong> el que hi ha escrit en el gràfic de presentació de l&#039;activitat.<br/>
-
-<strong>3</strong>. Escriure a les cel·la <strong>B13</strong> i <strong>B14</strong> el que hi ha escrit en el gràfic de la presentació de l&#039;activitat.<br/>
-
-<strong>4</strong>. Escriue a la cel·la <strong>G5</strong>: <strong>=SI(A1=0;ALEATENTRE(1;50))</strong><br/>
-
-<strong>5</strong>. Escriure a la cel·la <strong>C7</strong>: <strong>=SI(A1=0;ALEATENTRE(0;10))</strong><br/>
-
-<strong>6</strong>. Fer que la cel·la <strong>E11</strong> i <strong>E13</strong> tinguin el mateix format que les cel·les del gràfic de l&#039;activitat de presentació.<br/>
-
-<strong>7</strong>. Escriure a la cel·la <strong>E13</strong>: <strong>=SI(E11=&quot;&quot;;&quot;&quot;;(E11+C7/2-C7)/2)</strong><br/>
-
-<div class="noteclassic">Aquesta fórmula calcula el número que s&#039;ha pensat. El plantejament del problema
-va en funció de la fórmula escrita. En aquest cas l&#039;expressió matemàtica del problema seria:
-<strong>NP*2 + C7 – C7/2 = E11</strong>. <strong>NP</strong> és él número pensat i <strong>E11</strong> és el resultat de fer les operacions que es proposen. Aïllant <strong>NP</strong> s&#039;obté la fórmula que hi ha a la cel·la <strong>E13</strong>.
-Si la cel·la <strong>E11</strong> no mostra cap valor, llavors la cel·la <strong>C13</strong> no presenta cap valor; en cas contrari, la cel·la <strong>E13</strong> tindrà el valor calculat per la fórmula <strong>=SI(E11=&quot;&quot;;&quot;&quot;;(E11+C7/2-C7)/2)</strong>
-</div>
-<strong>8</strong>. Fer una macro amb les següents funcions:<br/>
-
-</p>
-<ul>
-<li class="level1"><div class="li">Fer la cel·la <strong>A1</strong> sigui igual a <strong>0</strong></div>
-</li>
-<li class="level1"><div class="li">Que la cel·la <strong>E11</strong> rebi el focus.</div>
-</li>
-</ul>
-
-<p>
-<strong>9</strong>. Protegir les cel·les que convingui.<br/>
-
-<strong>10</strong>. Comprovar que funcioni correctament l&#039;activitat.<br/>
-
-<strong>11</strong>. Desar el fitxer <strong>M6</strong>.<br/>
-
-
-</p>
-
-</div>
-
-    <!-- ......... wikipage stop  ......... -->
-
-  </div>
-
-  <div class="clearer">&nbsp;</div>
-
-
-<br /><br />
-  
- <div class="footerinc">
-  <hr />
-  <table style="width: 100%;">
-  <tr style="vertical-align: middle;">
-    <td  style="width: 18%; ">
-      <div style="float: left;">
-      <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+  <div class="dokuwiki">
+
+
+    <div class="headermain">
+      <!--<a href="http://ateneu.xtec.cat/wikiform/wikiexport"><span class="logoateneu"></span></a>-->
+      <div class="titol">UF4. Fulls de càlcul </div>
+      <div class="subtitol"> Pràctica 6 - Pr&agrave;c. 7</div>
+    </div>
+    <div class="navega">
+      <div id="navcontainer">
+        <ul id="navlist">
+          <li><a href="index.html" title="Inici">&lt;&lt;</a></li>
+          <li><a href="index-7.html">
+              <</a> </li>
+          <!--<li><a href="practica_1-6.html">Pr&agrave;c. 1</a></li>-->
+          <li><a href="practica_2-6.html">Exercici 2</a></li>
+          <li><a href="practica_3-6.html">Exercici 3</a></li>
+          <!--
+          <li><a href="practica_4-6.html">Pr&agrave;c. 4</a></li>
+          <li><a href="practica_5-6.html">Pr&agrave;c. 5</a></li>
+          <li><a href="practica_6-6.html">Pr&agrave;c. 6</a></li>-->
+          <li id="active"><a id="current" href="#">Exercici 7</a></li>
+          <!--<li><a href="practica_8-3.html">Pr&agrave;c. 8</a></li>
+          <li><a href="practica_9-2.html">Pr&agrave;c. 9</a></li>
+          <li><a href="practica_10.html">Pr&agrave;c. 10</a></li>-->
+        </ul>
       </div>
-    </td>
-    <td style="width: 32%;">
-      
-    </td>
-    <td style="width: 32%;">
+    </div>
 
-      <!--      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>-->
 
-    </td>
-	<td style="width: 18%;">
-      <div style="float: right;">
-      
+    <div class="page">
+
+      <!-- ......... wikipage start ......... -->
+
+      <h1><a name="joc_del_tres_en_ratlla" id="joc_del_tres_en_ratlla">Joc del tres en ratlla</a></h1>
+      <div class="level1">
+
+        <p>
+          <strong>Presentació gràfica de l&#039;activitat</strong><br />
+
+          <img src="png/joc_tres_en_ratlla.png" class="media" alt="" /><br />
+
+        </p>
+
+        <p>
+          <strong>Funcions que es fan servir en aquesta activitat</strong><br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a><br />
+            </div>
+          </li>
+        </ul>
+
+        <p>
+          <br />
+
+          <strong>Objectiu de l&#039;activitat</strong><br />
+
+          Jugar al tres en ratlla mitjançant el full de càlc.<br />
+
+          <br />
+
+          <strong>Desenvolupament de l&#039;activitat</strong><br />
+
+          <strong>1</strong>. Obrir el el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 tres en ratlla</strong><br />
+
+          <strong>2</strong>. Escriure a la cel·la <strong>J4</strong>: <strong>=G4</strong>. La cel·la <strong>G4</strong> representa el nom del primer jugador/a. El nom que s&#039;escrigui a la cel·la <strong>G4</strong> es repetirà a la cel·la
+          <strong>J4</strong>. Es pot escriure la primera lletra del nom o el nom complet<br />
+
+          <strong>3</strong>. Escriure a la cel·la <strong>J5</strong>: <strong>=SI(I(C4=G4;D4=G4;E4=G4);1;&quot;&quot;)</strong>. Correspon a la línia horitzontal superior.<br />
+
+          <div class="noteclassic">Si cada una de les cel·les del rang <strong>C4:E4</strong> té el mateix valor que la cel·la <strong>G4</strong>, llavors la cel·la <strong>J5</strong> tindrà el valor <strong>1</strong>. Per tant, el valor
+            <strong>1</strong> indica que hi ha tres lletres en línia sent aquest l&#039;objectiu del joc del tres en ratlla.<br />
+
+            Aquest joc ocupa les cel·les del rang <strong>C4:E6</strong> donant <strong>8</strong> possibles línies guanyadores (tres línies horitzontals, tres línies verticals i dues línies obliqües).
+          </div>
+          <strong>4</strong>. Escriure a la cel·la <strong>J6</strong>: <strong>=SI(I(C5=G4;D5=G4;E5=G4);1;&quot;&quot;)</strong>. Correspon a la línia horitzontal del mig.<br />
+
+          <strong>5</strong>. Escriure a la cel·la <strong>J7</strong>: <strong>=SI(I(C6=G4;D6=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la línia horitzontal inferior.<br />
+
+          <strong>6</strong>. Escriure a la cel·la <strong>J8</strong>: <strong>=SI(I(C4=G4;C5=G4;C6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical de l&#039;esquerra.<br />
+
+          <strong>7</strong>. Escriure a la cel·la <strong>J9</strong>: <strong>=SI(I(D4=G4;D5=G4;D6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical del mig.<br />
+
+          <strong>8</strong>. Escriure a la cel·la <strong>J10</strong>: <strong>=SI(I(E4=G4;E5=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la línia vertical de la dreta.<br />
+
+          <strong>9</strong>. Escriure a la cel·la <strong>J11</strong>: <strong>=SI(I(C4=G4;D5=G4;E6=G4);1;&quot;&quot;)</strong>. Correspon a la línia obliqua d&#039;esquerra a dreta.<br />
+
+          <strong>10</strong>. Escriure a la cel·la <strong>J12</strong>: <strong>=SI(I(E4=G4;D5=G4;C6=G4);1;&quot;&quot;)</strong>. Correspon a la línia obliqua de dreta a esquerra.<br />
+
+          <strong>11</strong>. Escriure a la cel·la <strong>K4</strong>: <strong>=H4</strong><br />
+
+          <div class="noteclassic">Representa el/la segon/a judador/a. El nom que s&#039;escrigui a la cel·la <strong>H4</strong> es repetirà a la cel·la <strong>K4</strong>. Es pot escriure la primera lletra del nom o el nom complet.
+          </div><br />
+
+          Ara es torna a fer el mateix per al/la segon/a jugador/a:<br />
+
+          <br />
+
+          <strong>12</strong>. Escriure a la cel·la <strong>K5</strong>: <strong>=SI(I(C4=H4;D4=H4;E4=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>13</strong>. Escriure a la cel·la <strong>K6</strong>: <strong>=SI(I(C5=H4;D5=H4;E5=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>14</strong>. Escriure a la cel·la <strong>K7</strong>: <strong>=SI(I(C6=H4;D6=H4;E6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>15</strong>. Escriure a la cel·la <strong>K8</strong>: <strong>=SI(I(C4=H4;C5=H4;C6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>16</strong>. Escriure a la cel·la <strong>K9</strong>: <strong>=SI(I(D4=H4;D5=H4;D6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>17</strong>. Escriure a la cel·la <strong>K10</strong>: <strong>=SI(I(E4=H4;E5=H4;E6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>18</strong>. Escriure a la cel·la <strong>K11</strong>: <strong>=SI(I(C4=H4;D5=H4;E6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>19</strong>. Escriure a la cel·la<strong>k12</strong>: <strong>=SI(I(E4=H4;D5=H4;C6=H4);1;&quot;&quot;)</strong><br />
+
+          <strong>20</strong>. Assignar els següents atributs a les cel·les del rang <strong>C4:E6</strong>:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">color de la lletra: negre </div>
+          </li>
+          <li class="level1">
+            <div class="li">tipus de lletra: Arial </div>
+          </li>
+          <li class="level1">
+            <div class="li">mida: 14 </div>
+          </li>
+          <li class="level1">
+            <div class="li">color de fons: taronja 4 </div>
+          </li>
+          <li class="level1">
+            <div class="li">centrar horitzontal i verticalment el contingut de les cel·les </div>
+          </li>
+          <li class="level1">
+            <div class="li">Fer visibles totes les línies de les vores de les cel·les </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>21</strong>. Assignar els següents atributs a les cel·les <strong>G4</strong> i <strong>H4</strong>
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">color de la lletra: negre </div>
+          </li>
+          <li class="level1">
+            <div class="li">tipus de lletra: Arial </div>
+          </li>
+          <li class="level1">
+            <div class="li">mida: 14 </div>
+          </li>
+          <li class="level1">
+            <div class="li">color de fons: gris 20% </div>
+          </li>
+          <li class="level1">
+            <div class="li">centrar horitzontal i verticalment el contingut de les cel·les </div>
+          </li>
+          <li class="level1">
+            <div class="li">Fer visibles totes les línies de les vores de les cel·les </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>22</strong>. Escriure a la cel·la <strong>G5</strong>: <strong>=SI(G4:H4=&quot;&quot;;&quot;&quot;;SI(SUMA(J3:J18)=1;&quot;guanya&quot;;&quot;&quot;))</strong><br />
+
+          <div class="noteclassic">Si la suma del rang <strong>J3:J18</strong> és igual a <strong>1</strong>, llavors apareix la paraula <strong>"guanya"</strong>; si no; no apareix cap valor.
+          </div><br />
+
+          <strong>23</strong>. Escriure a la cel·la <strong>H5</strong>: <strong>=SI(G4:H4=&quot;&quot;;&quot;&quot;;SI(SUMA(K3:K18)=1;&quot;guanya&quot;;&quot;&quot;))</strong><br />
+
+          <strong>24</strong>. Fer una macro amb les següent funcions:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">Esborrar els valors les cel·les del rang <strong>C4:E6</strong> </div>
+          </li>
+          <li class="level5">
+            <div class="li">Assignar a la cel·la <strong>A1</strong> el valor de <strong>0</strong> </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>25</strong>. Crear un botó (comandament) de Controls de formulari i assignar-li la macro feta anteriorment.<br />
+
+          <strong>26</strong>. Validar la cel·la <strong>A1</strong> per al valor <strong>0</strong>.<br />
+
+          <strong>27</strong>. Protegir les cel·les que convingui.<br />
+
+          <strong>28</strong>. Ocultar les cel·les que convingui.<br />
+
+          <strong>29</strong>. Comprovar que l&#039;activitat funcioni correctament.<br />
+
+          <strong>30</strong>. Desar el fitxer <strong>M6</strong>.<br />
+
+        </p>
+
       </div>
-    </td>
-  </tr>
-  </table>
-<!--
+
+      <h1><a name="joc_de_sumar" id="joc_de_sumar">Joc de sumar</a></h1>
+      <div class="level1">
+
+        <p>
+          <strong>Presentació gràfica de l&#039;activitat</strong><br />
+
+          <img src="png/joc_sumar_numeros.png" class="media" alt="" /><br />
+
+          <br />
+
+          <strong>Funcions que es fan servir en aquesta activitat</strong><br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#i" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=I()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#suma" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SUMA()</a><br />
+            </div>
+          </li>
+        </ul>
+
+        <p>
+          <br />
+
+          <strong>Objectiu de l&#039;activitat</strong><br />
+
+          Escriure un número en cada una de les cel·les de color taronja perquè sumant horitzontal i verticalment doni els resultats que hi ha a cel·les de color gris.<br />
+
+          <br />
+
+          <strong>Desenvolupament de l&#039;activitat</strong><br />
+
+          <strong>1</strong>. Obrir el el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 joc de sumar</strong><br />
+
+          <strong>2</strong>. Escriure a la cel·la <strong>R8</strong>: <strong>=SI($A$1=0;ALEATENTRE(0;9))</strong><br />
+
+          <strong>3</strong>. Copiar la cel·la <strong>R8</strong> i copiar-la al rang <strong>R8:S9</strong> i al rang <strong>R14:T16</strong><br />
+
+          <strong>4</strong>. Escriure a la cel·la <strong>T8</strong>: <strong>=SUMA(R8:S8)</strong><br />
+
+          <strong>5</strong>. Copiar la cel·la <strong>T8</strong> i enganxar-la a la cel·la <strong>T9</strong><br />
+
+          <strong>6</strong>. Escriure a la cel·la <strong>R10</strong>: <strong>=SUMA(R8:R9)</strong><br />
+
+          <strong>7</strong>. Copiar la cel·la <strong>R10</strong>: i enganxar-la a la cel·la <strong>S10</strong><br />
+
+          <strong>8</strong>. Escriure a la cel·la <strong>U14</strong>: <strong>=SUMA(R14:T14)</strong><br />
+
+          <strong>9</strong>. Copiar la cel·la <strong>U14</strong> i enganxar-la a la cel·les <strong>U15</strong> i <strong>16</strong><br />
+
+          <strong>10</strong>. Escriure a la cel·la <strong>R17</strong>: <strong>=SUMA(R14:R16)</strong><br />
+
+          <strong>11</strong>. Copiar la cel·la R17 i enganxar-la a les cel·les <strong>S17</strong> i <strong>R17</strong><br />
+
+          <strong>12</strong>. Assignar els següents atributs a les cel·les del rangs <strong>B8:C9</strong> i <strong> I8:K10</strong>:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">estil de la línia de les vores de les cel·les: <strong>0,05pt</strong> </div>
+          </li>
+          <li class="level3">
+            <div class="li">color de la línia: <strong>negre</strong> </div>
+          </li>
+          <li class="level3">
+            <div class="li">color de fons: <strong>taronja 4</strong> </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>13</strong>. Assignar els següents atributs a les cel·les dels rangs <strong>D8:D9</strong> , <strong>B10:C10</strong>,<strong>L8:L10</strong> i <strong>I11:K11</strong><br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">color de fons: <strong>gris 10%</strong> </div>
+          </li>
+          <li class="level1">
+            <div class="li">tipus de lletra: <strong>Arial</strong> </div>
+          </li>
+          <li class="level1">
+            <div class="li">tipografia: <strong>normal</strong> </div>
+          </li>
+          <li class="level1">
+            <div class="li">mida: <strong>14</strong> </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>14</strong>. Escriure a la cel·la <strong>D8</strong>: <strong>=T8</strong><br />
+
+          <strong>15</strong>. Escriure a la cel·la <strong>D9</strong>: <strong>=T9</strong><br />
+
+          <strong>16</strong>. Escriure a la cel·la <strong>B10</strong>: <strong>=R10</strong><br />
+
+          <strong>17</strong>. Escriure a la cel·la <strong>C10</strong>: <strong>=S10</strong><br />
+
+          <strong>18</strong>. Escriure a la cel·la <strong>E8</strong>: <strong>=SI(I(B8=&quot;&quot;;C8=&quot;&quot;);&quot;&quot;;SI(SUMA(B8:C8)=D8;&quot;bé&quot;;&quot;&quot;))</strong><br />
+
+          <div class="noteclassic">Amb aquesta fórmula la cel·la <strong>E8</strong> no mostrarà cap valor si les cel·les <strong>B8</strong> i <strong>C8</strong> no tenen cap valor, en cas contrari es mostrarà el <strong>&quot;bé&quot;</strong> si
+            la suma de la cel·la <strong>B8</strong> més la cel·la <strong>C8</strong> sigui igual al valor de la cel·la <strong>D8</strong>; si no, no es mostra cap valor(<strong>&quot;&quot;</strong>).
+          </div>
+          <strong>19</strong>. Copiar la cel·la <strong>E8</strong> i enganxar-la a la cel·la <strong>E9</strong>.<br />
+
+          <strong>20</strong>. Escriure a la cel·la <strong>B11</strong>: <strong>=SI(I(B8=&quot;&quot;;B9=&quot;&quot;);&quot;&quot;;SI(SUMA(B8:B9)=B10;&quot;bé&quot;;&quot;&quot;))</strong><br />
+
+          <strong>21</strong>. Copiar la cel·la <strong>B11</strong> i enganxar-la a la cel·la <strong>C11</strong>.<br />
+
+          <strong>22</strong>. Escriure a la cel·la <strong>M8</strong>: <strong>=SI(I(I8=&quot;&quot;;J8=&quot;&quot;;K8=&quot;&quot;);&quot;&quot;;SI(SUMA(I8:K8)=L8;&quot;bé&quot;;&quot;&quot;))</strong><br />
+
+          <strong>23</strong>. Copiar la cel·la <strong>M8</strong> a les cel·les <strong>M9</strong> i <strong>M10</strong><br />
+
+          <strong>24</strong>. Escriure a la cel·la <strong>L8</strong>: <strong>=U14</strong><br />
+
+          <strong>25</strong>. Copiar la cel·la <strong>L8</strong> a les cel·les <strong>L9</strong> i <strong>L10</strong><br />
+
+          <strong>26</strong>. Escriure a la cel·la <strong>I11</strong>: <strong>=R17</strong><br />
+
+          <strong>27</strong>. Copiar la cel·la <strong>I11</strong> a les cel·les <strong>J11</strong> i <strong>K11</strong><br />
+
+          <strong>28</strong>. Escriure a la cel·la <strong>I12</strong>: <strong>=SI(I(I8=&quot;&quot;;I9=&quot;&quot;;I10=&quot;&quot;);&quot;&quot;;SI(SUMA(I8:I10)=I11;&quot;bé&quot;;&quot;&quot;))</strong><br />
+
+          <strong>29</strong>. Copiar la cel·la <strong>I12</strong> a les cel·les <strong>J12</strong> i <strong>K12</strong><br />
+
+          <strong>30</strong>. Fer una macro amb els següents funcions:
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">Esborrar els valors de les cel·les dels rangs <strong>B8</strong>:<strong>C9</strong> i <strong>I8:K10</strong> </div>
+          </li>
+          <li class="level3">
+            <div class="li">Fer que la cel·la <strong>A1</strong> tingui el valor de <strong>0</strong> </div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>31</strong>. Crear un botó de prémer de Controls de formulari i assignar-li la macro anteriorment feta.<br />
+
+          <strong>32</strong>. Protegir les cel·les que convingui.<br />
+
+          <strong>33</strong>. Ocultar les cel·les que convingui.<br />
+
+          <strong>34</strong>. Validar la cel·la <strong>A1</strong> al valor <strong>0</strong> amb missatge d&#039;avis.<br />
+
+          <strong>35</strong>. Validar les cel·les dels rangs <strong>B8:C9</strong> i <strong>I8:K10</strong> perquè només es puguin escriure-hi números.<br />
+
+          <strong>36</strong>. Comprovar que l&#039;activitat funcioni correctament.<br />
+
+          <strong>37</strong>. Desar el fitxer <strong>M6</strong>.<br />
+
+        </p>
+
+      </div>
+
+      <h1><a name="joc_d_endevinar_un_numero" id="joc_d_endevinar_un_numero">Joc d&#039;endevinar un número</a></h1>
+      <div class="level1">
+
+        <p>
+
+          <strong>Presentació gràfica de l&#039;activitat</strong><br />
+
+          <img src="png/m6p7_endevinar_numero.png" class="media" alt="" /><br />
+
+          <br />
+
+          <strong>Funcions que es fan servir en aquesta activitat</strong><br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#si" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=SI()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li"><a href="funcions.html#aleatentre" class="wikilink1" title="cursos:tic:d228:g_rapida:funcions">=ALEATENTRE()</a><br />
+            </div>
+          </li>
+          <li class="level1">
+            <div class="li">Operadors de sumar(+), restar (-), multiplicar (*) i dividir (/)</div>
+          </li>
+        </ul>
+
+        <p>
+          <br />
+
+          <strong>Objectiu de l&#039;activitat</strong><br />
+
+          Practicar el càlcul mental.<br />
+
+          <br />
+
+          <strong>Desenvolupament de l&#039;activitat</strong><br />
+
+          <strong>1</strong>. Orir el fitxer <strong>M6</strong> i afegir un nou full amb el nom de <strong>M6P7 endevinar número</strong><br />
+
+          <strong>2</strong>. Escriure a la cel·la <strong>B2</strong> i a les cel·le del rang <strong>B5:B9</strong> el que hi ha escrit en el gràfic de presentació de l&#039;activitat.<br />
+
+          <strong>3</strong>. Escriure a les cel·la <strong>B13</strong> i <strong>B14</strong> el que hi ha escrit en el gràfic de la presentació de l&#039;activitat.<br />
+
+          <strong>4</strong>. Escriue a la cel·la <strong>G5</strong>: <strong>=SI(A1=0;ALEATENTRE(1;50))</strong><br />
+
+          <strong>5</strong>. Escriure a la cel·la <strong>C7</strong>: <strong>=SI(A1=0;ALEATENTRE(0;10))</strong><br />
+
+          <strong>6</strong>. Fer que la cel·la <strong>E11</strong> i <strong>E13</strong> tinguin el mateix format que les cel·les del gràfic de l&#039;activitat de presentació.<br />
+
+          <strong>7</strong>. Escriure a la cel·la <strong>E13</strong>: <strong>=SI(E11=&quot;&quot;;&quot;&quot;;(E11+C7/2-C7)/2)</strong><br />
+
+          <div class="noteclassic">Aquesta fórmula calcula el número que s&#039;ha pensat. El plantejament del problema
+            va en funció de la fórmula escrita. En aquest cas l&#039;expressió matemàtica del problema seria:
+            <strong>NP*2 + C7 – C7/2 = E11</strong>. <strong>NP</strong> és él número pensat i <strong>E11</strong> és el resultat de fer les operacions que es proposen. Aïllant <strong>NP</strong> s&#039;obté la fórmula que hi ha a la cel·la
+            <strong>E13</strong>.
+            Si la cel·la <strong>E11</strong> no mostra cap valor, llavors la cel·la <strong>C13</strong> no presenta cap valor; en cas contrari, la cel·la <strong>E13</strong> tindrà el valor calculat per la fórmula
+            <strong>=SI(E11=&quot;&quot;;&quot;&quot;;(E11+C7/2-C7)/2)</strong>
+          </div>
+          <strong>8</strong>. Fer una macro amb les següents funcions:<br />
+
+        </p>
+        <ul>
+          <li class="level1">
+            <div class="li">Fer la cel·la <strong>A1</strong> sigui igual a <strong>0</strong></div>
+          </li>
+          <li class="level1">
+            <div class="li">Que la cel·la <strong>E11</strong> rebi el focus.</div>
+          </li>
+        </ul>
+
+        <p>
+          <strong>9</strong>. Protegir les cel·les que convingui.<br />
+
+          <strong>10</strong>. Comprovar que funcioni correctament l&#039;activitat.<br />
+
+          <strong>11</strong>. Desar el fitxer <strong>M6</strong>.<br />
+
+
+        </p>
+
+      </div>
+
+      <!-- ......... wikipage stop  ......... -->
+
+    </div>
+
+    <div class="clearer">&nbsp;</div>
+
+
+    <br /><br />
+
+    <div class="footerinc">
+      <hr />
+      <table style="width: 100%;">
+        <tr style="vertical-align: middle;">
+          <td style="width: 18%; ">
+            <div style="float: left;">
+              <!--<a target="_blank" href="http://ateneu.xtec.cat/wikiform" title="Materials i recursos per a la formació"><img src="png/ateneu2.png" width="91" height="30" alt="Materials i recursos per a la formació" /></a>-->
+            </div>
+          </td>
+          <td style="width: 32%;">
+
+          </td>
+          <td style="width: 32%;">
+
+            <!--      <a target="_blank"href="http://www.dokuwiki.org/" target="_blank" title="DokuWiki"><img src="png/button-dw.png" width="80" height="15" alt="DokuWiki" /></a>-->
+
+          </td>
+          <td style="width: 18%;">
+            <div style="float: right;">
+
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!--
 <rdf:RDF xmlns="http://web.resource.org/cc/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -471,11 +535,12 @@ Si la cel·la <strong>E11</strong> no mostra cap valor, llavors la cel·la <stro
 
 </rdf:RDF>
 -->
-</div>
+    </div>
 
-</div>
+  </div>
 
 </body>
 
 <!-- Generat el 28/Mar/2012  14:47:28  amb HTTrack -->
+
 </html>
